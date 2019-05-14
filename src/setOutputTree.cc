@@ -92,6 +92,8 @@ void setOutputTree::initializeVariables()
   nu_pz_isre	=1;
   type = -1;
   l_pt1		=-999;
+  l_d01		=-999;
+  l_d02		=-999;
   l_eta1       	=-999;
   l_phi1       	=-999;
   l_e1		=-999;
@@ -492,6 +494,7 @@ PuppiAK8jet_qjet  = -999;
   vbf_maxpt_j1_pt_jer_up	=-999;
   vbf_maxpt_j1_pt_jer_dn	=-999;
   vbf_maxpt_j1_eta		=-999;
+  vbf_maxpt_j1_theta		=-999;
   vbf_maxpt_j1_eta_jes_up	=-999;
   vbf_maxpt_j1_eta_jes_dn	=-999;
   vbf_maxpt_j1_eta_jer		=-999;
@@ -513,6 +516,7 @@ PuppiAK8jet_qjet  = -999;
   vbf_maxpt_j2_pt_jer_up	=-999;
   vbf_maxpt_j2_pt_jer_dn	=-999;
   vbf_maxpt_j2_eta		=-999;
+  vbf_maxpt_j2_theta		=-999;
   vbf_maxpt_j2_eta_jes_up	=-999;
   vbf_maxpt_j2_eta_jes_dn	=-999;
   vbf_maxpt_j2_eta_jer		=-999;
@@ -718,7 +722,12 @@ ZeppenfeldWL_2Lep = -999;
 ZeppenfeldWL_2Lep_jes_up	=-999;
 ZeppenfeldWL_2Lep_jes_dn	=-999;
 LeptonProjection_2Lep = -999;
-
+//////////////////////////////////////////////////////////Asar//////////////////////
+	Fox_W_H1 = -999;
+	Fox_W_H2 = -999;
+	Fox_W_H3 = -999;
+	Fox_omega12 = -999;
+	Fox_r = -999;
 }
 
 void setOutputTree::setBranches()
@@ -803,6 +812,8 @@ void setOutputTree::setBranches()
   fTree->Branch("nu_pz_isre",&nu_pz_isre,"nu_pz_isre/I");
   fTree->Branch("type",&type,"type/I");
   fTree->Branch("l_pt1",&l_pt1,"l_pt1/F");
+  fTree->Branch("l_d01",&l_d01,"l_d01/F");
+  fTree->Branch("l_d02",&l_d02,"l_d02/F");
   fTree->Branch("l_eta1",&l_eta1,"l_eta1/F");
   fTree->Branch("l_phi1",&l_phi1,"l_phi1/F");
   fTree->Branch("l_e1",&l_e1,"l_e1/F");
@@ -1224,6 +1235,7 @@ fTree->Branch("PuppiAK8jet_qjet",&PuppiAK8jet_qjet,"PuppiAK8jet_qjet");
   fTree->Branch("vbf_maxpt_j1_pt_jer_up",&vbf_maxpt_j1_pt_jer_up,"vbf_maxpt_j1_pt_jer_up/F");
   fTree->Branch("vbf_maxpt_j1_pt_jer_dn",&vbf_maxpt_j1_pt_jer_dn,"vbf_maxpt_j1_pt_jer_dn/F");
   fTree->Branch("vbf_maxpt_j1_eta",&vbf_maxpt_j1_eta,"vbf_maxpt_j1_eta/F");
+  fTree->Branch("vbf_maxpt_j1_theta",&vbf_maxpt_j1_theta,"vbf_maxpt_j1_theta/F");
   fTree->Branch("vbf_maxpt_j1_eta_jes_up",&vbf_maxpt_j1_eta_jes_up,"vbf_maxpt_j1_eta_jes_up/F");
   fTree->Branch("vbf_maxpt_j1_eta_jes_dn",&vbf_maxpt_j1_eta_jes_dn,"vbf_maxpt_j1_eta_jes_dn/F");
   fTree->Branch("vbf_maxpt_j1_eta_jer",&vbf_maxpt_j1_eta_jer,"vbf_maxpt_j1_eta_jer/F");
@@ -1245,6 +1257,7 @@ fTree->Branch("PuppiAK8jet_qjet",&PuppiAK8jet_qjet,"PuppiAK8jet_qjet");
   fTree->Branch("vbf_maxpt_j2_pt_jer_up",&vbf_maxpt_j2_pt_jer_up,"vbf_maxpt_j2_pt_jer_up/F");
   fTree->Branch("vbf_maxpt_j2_pt_jer_dn",&vbf_maxpt_j2_pt_jer_dn,"vbf_maxpt_j2_pt_jer_dn/F");
   fTree->Branch("vbf_maxpt_j2_eta",&vbf_maxpt_j2_eta,"vbf_maxpt_j2_eta/F");
+  fTree->Branch("vbf_maxpt_j2_theta",&vbf_maxpt_j2_theta,"vbf_maxpt_j2_theta/F");
   fTree->Branch("vbf_maxpt_j2_eta_jes_up",&vbf_maxpt_j2_eta_jes_up,"vbf_maxpt_j2_eta_jes_up/F");
   fTree->Branch("vbf_maxpt_j2_eta_jes_dn",&vbf_maxpt_j2_eta_jes_dn,"vbf_maxpt_j2_eta_jes_dn/F");
   fTree->Branch("vbf_maxpt_j2_eta_jer",&vbf_maxpt_j2_eta_jer,"vbf_maxpt_j2_eta_jer/F");
@@ -1433,7 +1446,13 @@ fTree->Branch("BosonCentrality_2Lep_jes_dn", &BosonCentrality_2Lep_jes_dn, "Boso
 fTree->Branch("ZeppenfeldWL_2Lep_jes_up", &ZeppenfeldWL_2Lep_jes_up, "ZeppenfeldWL_2Lep_jes_up/F");
 fTree->Branch("ZeppenfeldWL_2Lep_jes_dn", &ZeppenfeldWL_2Lep_jes_dn, "ZeppenfeldWL_2Lep_jes_dn/F");
   fTree->Branch("LeptonProjection_2Lep",&LeptonProjection_2Lep,"LeptonProjection_2Lep/F");
-  //fTree->Branch("", & , "/F");
+/////////////////////////////Asar//////////////////////
+	fTree->Branch("Fox_W_H1", &Fox_W_H1, "Fox_W_H1/F");
+	fTree->Branch("Fox_W_H2", &Fox_W_H2, "Fox_W_H2/F");
+	fTree->Branch("Fox_W_H3", &Fox_W_H3, "Fox_W_H2/F");
+	fTree->Branch("Fox_r", &Fox_r, "Fox_r/F");
+	fTree->Branch("Fox_omega12", &Fox_omega12, "Fox_omega12/F");
+ 	//fTree->Branch("", & , "/F");
 
 //  fTree->Branch("deltaR_AK4",&deltaR_AK4,"deltaR_AK4/F");
 }

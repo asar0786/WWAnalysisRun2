@@ -109,7 +109,7 @@ class setOutputTree {
   int nu_pz_run2_type;
   int nu_pz_isre;
   int type;
-  float l_pt1;
+  float l_pt1,l_d01, l_d02;
   float l_eta1;
   float l_phi1;
   float l_e1;
@@ -530,6 +530,7 @@ float PuppiAK8jet_qjet;
   float vbf_maxpt_j1_pt_jer_up;
   float vbf_maxpt_j1_pt_jer_dn;
   float vbf_maxpt_j1_eta;
+  float vbf_maxpt_j1_theta;
   float vbf_maxpt_j1_eta_jes_up;
   float vbf_maxpt_j1_eta_jes_dn;
   float vbf_maxpt_j1_eta_jer;
@@ -551,6 +552,7 @@ float PuppiAK8jet_qjet;
   float vbf_maxpt_j2_pt_jer_up;
   float vbf_maxpt_j2_pt_jer_dn;
   float vbf_maxpt_j2_eta;
+  float vbf_maxpt_j2_theta;
   float vbf_maxpt_j2_eta_jes_up;
   float vbf_maxpt_j2_eta_jes_dn;
   float vbf_maxpt_j2_eta_jer;
@@ -719,7 +721,11 @@ float PuppiAK8jet_qjet;
   float RpT_2Lep;
   float ZeppenfeldWL_2Lep;
   float LeptonProjection_2Lep;
-
+/////////////////////////////////Asar//////////////////////////
+  
+	float Fox_W_H1, Fox_W_H2, Fox_W_H3;
+	float Fox_omega12;
+	float Fox_r;
   setOutputTree(TTree* outputTree);
   //  setOutputTree(TTree *outputTree=0);
   //  setOutputTree(TFile *outputFile=0, std::string outputTreeName="WWTree");

@@ -21,6 +21,7 @@
 // JETS
 // https://twiki.cern.ch/twiki/bin/view/CMS/JetID13TeVRun2016
 //--------------------------------------------------------------------------------------------------
+/*
 bool passJetLooseSel(const baconhep::TJet *jet)
 {
   if(fabs(jet->eta)<= 2.7){
@@ -68,6 +69,7 @@ bool passPuppiJetLooseSel(const baconhep::TJet *jet)
   }
   return true;
 }
+*/
 //--------------------------------------------------------------------------------------------------
 bool passJetTightSel(const baconhep::TJet *jet)
 {
@@ -79,15 +81,16 @@ bool passJetTightSel(const baconhep::TJet *jet)
   if(fabs(jet->eta)<= 2.4) {
     if(jet->chHadFrac == 0)     return false;
     if(jet->nCharged  == 0)     return false;
-    if(jet->chEmFrac  >= 0.90)  return false;
+//    if(jet->chEmFrac  >= 0.80)  return false;
   }
   if(fabs(jet->eta) > 2.7 && fabs(jet->eta) <= 3.0) {
-    if(jet->neuEmFrac <= 0.01)  return false;
-    if(jet->neuHadFrac >= 0.98) return false;
+    if(jet->neuEmFrac <= 0.02 && >=0.99)  return false;
+//    if(jet->neuHadFrac >= 0.98) return false;
     if(jet->nNeutrals <= 2)     return false;
   }
   if(fabs(jet->eta) > 3.0) {
     if(jet->neuEmFrac >= 0.90)  return false;
+    if(jet->neuHadFrac >= 0.02) return false;
     if(jet->nNeutrals <= 10)    return false;
   }
   return true;
@@ -104,7 +107,7 @@ bool passJetTightLepVetoSel(const baconhep::TJet *jet)
   if(fabs(jet->eta)<= 2.4) {
     if(jet->chHadFrac == 0)     return false;
     if(jet->nCharged  == 0)     return false;
-    if(jet->chEmFrac  >= 0.90)  return false;
+    if(jet->chEmFrac  >= 0.80)  return false;
   }
   return true;
 }

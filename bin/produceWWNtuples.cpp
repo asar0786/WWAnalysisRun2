@@ -296,8 +296,8 @@ int main (int argc, char** argv)
   JetCorrectorParameters paramAK8chs("Summer16_23Sep2016V4_MC_JEC/Summer16_23Sep2016V4_MC_Uncertainty_AK8PFchs.txt");
   JetCorrectorParameters paramAK8puppi("Summer16_23Sep2016V4_MC_JEC/Summer16_23Sep2016V4_MC_Uncertainty_AK8PFPuppi.txt");
   JetCorrectionUncertainty *fJetUnc_AK4chs = new JetCorrectionUncertainty(paramAK4chs);
-  JetCorrectionUncertainty *fJetUnc_AK4puppi = new JetCorrectionUncertainty(paramAK4puppi);
-  JetCorrectionUncertainty *fJetUnc_AK8chs = new JetCorrectionUncertainty(paramAK8chs);
+  //JetCorrectionUncertainty *fJetUnc_AK4puppi = new JetCorrectionUncertainty(paramAK4puppi);
+  //JetCorrectionUncertainty *fJetUnc_AK8chs = new JetCorrectionUncertainty(paramAK8chs);
   JetCorrectionUncertainty *fJetUnc_AK8puppi = new JetCorrectionUncertainty(paramAK8puppi);
 
   //---------start loop on events------------
@@ -549,6 +549,7 @@ int main (int argc, char** argv)
     if(leadele)
       {
 	WWTree->l_pt1  = leadele->pt;
+	WWTree->l_d01  = leadele->d0;
 	WWTree->l_eta1 = leadele->eta;
 	WWTree->l_phi1 = leadele->phi;	
 	WWTree->l_e1 = leadeleE;
@@ -557,6 +558,7 @@ int main (int argc, char** argv)
     if(subele)
       {
 	WWTree->l_pt2  = subele->pt;
+	WWTree->l_d02  = subele->d0;
 	WWTree->l_eta2 = subele->eta;
 	WWTree->l_phi2 = subele->phi;	
 	WWTree->l_e2 = subeleE;
@@ -597,6 +599,7 @@ int main (int argc, char** argv)
     if(leadmu)
       {
 	WWTree->l_pt1  = leadmu->pt;
+	WWTree->l_d01  = leadmu->d0;
 	WWTree->l_eta1 = leadmu->eta;
 	WWTree->l_phi1 = leadmu->phi;	
 	WWTree->l_e1 = leadmue;	
@@ -605,6 +608,7 @@ int main (int argc, char** argv)
     if(submu)
       {
 	WWTree->l_pt2  = submu->pt;
+	WWTree->l_d02  = leadmu->d0;
 	WWTree->l_eta2 = submu->eta;
 	WWTree->l_phi2 = submu->phi;	
 	WWTree->l_e2 = submue;	
@@ -1198,10 +1202,10 @@ int main (int argc, char** argv)
     WWTree->nBTagJet_medium_unmerged=0;
     WWTree->nBTagJet_tight_unmerged=0;
 
-    int indexCloserJet = -1;
-    int indexCloserJetLep = -1;
-    float deltaRbtag_prev=100.;
-    float deltaRbtag_prev_loose=100.;
+    //int indexCloserJet = -1;
+    //int indexCloserJetLep = -1;
+    //float deltaRbtag_prev=100.;
+    //float deltaRbtag_prev_loose=100.;
     int OnlyTwoVBFTypeJets = 0;
     
     std::vector<int> indexGoodVBFJets;
@@ -1338,6 +1342,7 @@ int main (int argc, char** argv)
 
 	WWTree->vbf_maxpt_j1_pt = jet1->pt;
 	WWTree->vbf_maxpt_j1_eta = jet1->eta;
+	WWTree->vbf_maxpt_j1_theta = VBF1.Theta();
 	WWTree->vbf_maxpt_j1_phi = jet1->phi;
 	WWTree->vbf_maxpt_j1_e = VBF1.E();
 	WWTree->vbf_maxpt_j1_mass = VBF1.M();
@@ -1346,12 +1351,22 @@ int main (int argc, char** argv)
 
 	WWTree->vbf_maxpt_j2_pt = jet2->pt;
 	WWTree->vbf_maxpt_j2_eta = jet2->eta;
+	WWTree->vbf_maxpt_j2_theta = VBF2.Theta();
 	WWTree->vbf_maxpt_j2_phi = jet2->phi;
 	WWTree->vbf_maxpt_j2_e = VBF2.E();
 	WWTree->vbf_maxpt_j2_mass = VBF2.M();
 	WWTree->vbf_maxpt_j2_bDiscriminatorCSV = jet2->csv;
 	WWTree->vbf_maxpt_j2_charge = jet2->q;
+//////////////////////////////Asar//////////////////////
+	WWTree->Fox_r = (WWTree->vbf_maxpt_j1_pt)/(WWTree->vbf_maxpt_j2_pt);
+	//WWTree->Fox_omega12 = std::sqrt(std::pow((WWTree->vbf_maxpt_j1_phi),2)+std::pow((WWTree->vbf_maxpt_j2_phi),2));
+	WWTree->Fox_omega12 = cos(WWTree->vbf_maxpt_j1_theta)*cos(WWTree->vbf_maxpt_j2_theta)+sin(WWTree->vbf_maxpt_j1_theta)*sin(WWTree->vbf_maxpt_j2_theta)*cos(WWTree->vbf_maxpt_j1_phi-WWTree->vbf_maxpt_j2_phi);
+	WWTree->Fox_W_H1 = (1+std::pow(WWTree->Fox_r,2)+2*(WWTree->Fox_r)*(WWTree->Fox_omega12))/std::pow(1+WWTree->Fox_r,2);
 
+
+
+	WWTree->Fox_W_H2 = (1+std::pow(WWTree->Fox_r,2)+2*(WWTree->Fox_r)*(std::pow(WWTree->Fox_omega12,2)-1))/std::pow(1+WWTree->Fox_r,2);
+	WWTree->Fox_W_H3 = (1+std::pow(WWTree->Fox_r,2)+(WWTree->Fox_r)*(5*std::pow(WWTree->Fox_omega12,3)-3*(WWTree->Fox_omega12)))/std::pow(1+WWTree->Fox_r,2);
 	// calculate Up/Down variation for leading jet
         double unc1 = func(jet1->pt, jet1->eta, fJetUnc_AK4chs); 
 	VBF1_jes_up.SetPtEtaPhiM((1.+unc1)*jet1->pt, jet1->eta, jet1->phi, (1.+unc1)*jet1->mass);	
