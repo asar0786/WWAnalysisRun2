@@ -232,7 +232,7 @@ int main (int argc, char** argv)
 
   int nInputFiles = sampleName.size();
 
-  if (isLocal==1) nInputFiles = 21;
+  if (isLocal==1) nInputFiles = 2;
   cout<<"==> Total number of input files : "<<nInputFiles<<endl;
 
   TH1D *MCpu = new TH1D("MCpu","",75,0,75);
@@ -965,7 +965,7 @@ int main (int argc, char** argv)
 	TempAK8.SetPtEtaPhiM(jet->pt,fabs(jet->eta),jet->phi,jet->mass);
 	bool isCleanedJet = true;
 	if (jet->pt<200 || fabs(jet->eta)>2.4)  continue; //be careful: this is not inside the synchntuple code
-        //if (!passJetLooseSel(jet)) continue;
+       // if (!passJetLooseSel(jet)) continue;
 	//if (jet->chHadFrac <= 0 && jet->nCharged <= 0 &&  jet->chEmFrac >= 0.99) continue;
 	if (addjet->mass_sd0 < 40 || addjet->mass_sd0 > 150) continue;
 	if (addjet->mass_prun>tempTTbarMass) {
