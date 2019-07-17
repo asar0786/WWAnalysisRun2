@@ -1,0 +1,103 @@
+000 (605417.126.000) 02/28 06:23:39 Job submitted from host: <131.225.188.55:9618?addrs=131.225.188.55-9618&noUDP&sock=1689_178c_3>
+...
+001 (605417.126.000) 02/28 06:28:37 Job executing on host: <131.225.188.68:9618?addrs=131.225.188.68-9618&noUDP&sock=1838_4b29_87>
+...
+006 (605417.126.000) 02/28 06:29:47 Image size of job updated: 193
+	193  -  MemoryUsage of job (MB)
+	198296  -  ResidentSetSize of job (KB)
+...
+006 (605417.126.000) 02/28 06:30:47 Image size of job updated: 221
+	221  -  MemoryUsage of job (MB)
+	226536  -  ResidentSetSize of job (KB)
+...
+006 (605417.126.000) 02/28 06:32:47 Image size of job updated: 221
+	221  -  MemoryUsage of job (MB)
+	226668  -  ResidentSetSize of job (KB)
+...
+006 (605417.126.000) 02/28 06:34:48 Image size of job updated: 221
+	221  -  MemoryUsage of job (MB)
+	226700  -  ResidentSetSize of job (KB)
+...
+006 (605417.126.000) 02/28 06:42:53 Image size of job updated: 222
+	222  -  MemoryUsage of job (MB)
+	228120  -  ResidentSetSize of job (KB)
+...
+006 (605417.126.000) 02/28 06:43:54 Image size of job updated: 228
+	228  -  MemoryUsage of job (MB)
+	234324  -  ResidentSetSize of job (KB)
+...
+006 (605417.126.000) 02/28 06:45:56 Image size of job updated: 229
+	229  -  MemoryUsage of job (MB)
+	235512  -  ResidentSetSize of job (KB)
+...
+006 (605417.126.000) 02/28 06:46:56 Image size of job updated: 230
+	230  -  MemoryUsage of job (MB)
+	235632  -  ResidentSetSize of job (KB)
+...
+006 (605417.126.000) 02/28 06:48:58 Image size of job updated: 230
+	230  -  MemoryUsage of job (MB)
+	236028  -  ResidentSetSize of job (KB)
+...
+006 (605417.126.000) 02/28 06:49:58 Image size of job updated: 230
+	230  -  MemoryUsage of job (MB)
+	236244  -  ResidentSetSize of job (KB)
+...
+006 (605417.126.000) 02/28 06:51:58 Image size of job updated: 230
+	230  -  MemoryUsage of job (MB)
+	236288  -  ResidentSetSize of job (KB)
+...
+006 (605417.126.000) 02/28 06:55:58 Image size of job updated: 230
+	230  -  MemoryUsage of job (MB)
+	236356  -  ResidentSetSize of job (KB)
+...
+006 (605417.126.000) 02/28 07:12:14 Image size of job updated: 230
+	230  -  MemoryUsage of job (MB)
+	236360  -  ResidentSetSize of job (KB)
+...
+006 (605417.126.000) 02/28 07:32:28 Image size of job updated: 230
+	230  -  MemoryUsage of job (MB)
+	236428  -  ResidentSetSize of job (KB)
+...
+006 (605417.126.000) 02/28 07:37:33 Image size of job updated: 230
+	230  -  MemoryUsage of job (MB)
+	236432  -  ResidentSetSize of job (KB)
+...
+006 (605417.126.000) 02/28 07:42:35 Image size of job updated: 230
+	230  -  MemoryUsage of job (MB)
+	236448  -  ResidentSetSize of job (KB)
+...
+006 (605417.126.000) 02/28 07:47:37 Image size of job updated: 230
+	230  -  MemoryUsage of job (MB)
+	236492  -  ResidentSetSize of job (KB)
+...
+006 (605417.126.000) 02/28 07:53:40 Image size of job updated: 230
+	230  -  MemoryUsage of job (MB)
+	236512  -  ResidentSetSize of job (KB)
+...
+006 (605417.126.000) 02/28 07:54:40 Image size of job updated: 230
+	230  -  MemoryUsage of job (MB)
+	236516  -  ResidentSetSize of job (KB)
+...
+006 (605417.126.000) 02/28 07:55:41 Image size of job updated: 230
+	230  -  MemoryUsage of job (MB)
+	236520  -  ResidentSetSize of job (KB)
+...
+006 (605417.126.000) 02/28 08:09:50 Image size of job updated: 230
+	230  -  MemoryUsage of job (MB)
+	236528  -  ResidentSetSize of job (KB)
+...
+005 (605417.126.000) 02/28 08:13:41 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 01:03:22, Sys 0 00:06:22  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 01:03:22, Sys 0 00:06:22  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	92704  -  Run Bytes Sent By Job
+	14407  -  Run Bytes Received By Job
+	92704  -  Total Bytes Sent By Job
+	14407  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     0.00        1         1 
+	   Disk (KB)            :   133           7   1622959 
+	   Memory (MB)          :   230        2048      2048 
+...

@@ -1,0 +1,817 @@
+Executable = runstep2condor.sh
+Universe = vanilla
+Notification = ERROR
+Should_Transfer_Files = YES
+WhenToTransferOutput = ON_EXIT
+Transfer_Input_Files = runstep2condor.sh, python/produceWWNtuples.py
+x509userproxy = $ENV(X509_USER_PROXY)
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WplusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WplusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WplusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.log
+Arguments = -n WplusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 -o WWTree_WplusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 -w 0.9114 -no 1991227 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WplusTo2JWminusToLNuJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WplusTo2JWminusToLNuJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WplusTo2JWminusToLNuJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.log
+Arguments = -n WplusTo2JWminusToLNuJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 -o WWTree_WplusTo2JWminusToLNuJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 -w 0.9107 -no 1983847 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WplusToLNuWplusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WplusToLNuWplusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WplusToLNuWplusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.log
+Arguments = -n WplusToLNuWplusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 -o WWTree_WplusToLNuWplusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 -w 0.0879 -no 198848 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WminusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WminusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WminusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.log
+Arguments = -n WminusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 -o WWTree_WminusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 -w 0.0326 -no 189560 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WplusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WplusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WplusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.log
+Arguments = -n WplusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 -o WWTree_WplusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 -w 0.1825 -no 393171 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WplusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WplusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WplusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.log
+Arguments = -n WplusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 -o WWTree_WplusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 -w 0.054 -no 198922 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WminusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WminusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WminusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.log
+Arguments = -n WminusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 -o WWTree_WminusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 -w 0.1 -no 199542 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WminusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WminusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WminusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.log
+Arguments = -n WminusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 -o WWTree_WminusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 -w 0.0298 -no 189086 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/ZTo2LZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/ZTo2LZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/ZTo2LZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.log
+Arguments = -n ZTo2LZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 -o WWTree_ZTo2LZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 -w 0.0159 -no 99997 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WplusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WplusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WplusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.log
+Arguments = -n WplusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 -o WWTree_WplusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 -w 17.94 -no 1640169 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WplusTo2JWminusToLNuJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WplusTo2JWminusToLNuJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WplusTo2JWminusToLNuJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.log
+Arguments = -n WplusTo2JWminusToLNuJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 -o WWTree_WplusTo2JWminusToLNuJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 -w 17.92 -no 1706220 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WplusToLNuWplusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WplusToLNuWplusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WplusToLNuWplusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.log
+Arguments = -n WplusToLNuWplusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 -o WWTree_WplusToLNuWplusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 -w 3.451 -no 199858 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WminusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WminusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WminusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.log
+Arguments = -n WminusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 -o WWTree_WminusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 -w 0.5067 -no 190106 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WplusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WplusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WplusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.log
+Arguments = -n WplusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 -o WWTree_WplusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 -w 1.895 -no 349000 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WplusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WplusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WplusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.log
+Arguments = -n WplusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 -o WWTree_WplusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 -w 0.5686 -no 149363 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WminusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WminusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WminusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.log
+Arguments = -n WminusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 -o WWTree_WminusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 -w 0.7414 -no 160194 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WminusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WminusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WminusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.log
+Arguments = -n WminusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 -o WWTree_WminusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 -w 0.2223 -no 168679 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/ZTo2LZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/ZTo2LZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/ZTo2LZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.log
+Arguments = -n ZTo2LZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 -o WWTree_ZTo2LZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 -w 3.361 -no 99392 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WplusTo2JWminusToLNuJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WplusTo2JWminusToLNuJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WplusTo2JWminusToLNuJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.log
+Arguments = -n WplusTo2JWminusToLNuJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 -o WWTree_WplusTo2JWminusToLNuJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 -w 5.568 -no 3994663 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WplusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WplusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WplusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.log
+Arguments = -n WplusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 -o WWTree_WplusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 -w 5.546 -no 3949170 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WplusToLNuWplusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WplusToLNuWplusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WplusToLNuWplusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.log
+Arguments = -n WplusToLNuWplusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 -o WWTree_WplusToLNuWplusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 -w 0.08642 -no 99992 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WminusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WminusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WminusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.log
+Arguments = -n WminusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 -o WWTree_WminusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 -w 0.038 -no 99657 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WplusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WplusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WplusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.log
+Arguments = -n WplusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 -o WWTree_WplusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 -w 2.159 -no 1991348 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WplusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WplusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WplusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.log
+Arguments = -n WplusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 -o WWTree_WplusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 -w 0.64 -no 499432 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WminusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WminusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WminusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.log
+Arguments = -n WminusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 -o WWTree_WminusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 -w 1.302 -no 981540 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WminusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WminusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WminusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.log
+Arguments = -n WminusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 -o WWTree_WminusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 -w 0.387 -no 489280 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/ZTo2LZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/ZTo2LZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/ZTo2LZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.log
+Arguments = -n ZTo2LZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 -o WWTree_ZTo2LZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 -w 0.376 -no 49999 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/DY4JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/DY4JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/DY4JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.log
+Arguments = -n DY4JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8 -o WWTree_DY4JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8 -w 54.48136 -no 2798791 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/DY3JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/DY3JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/DY3JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1.log
+Arguments = -n DY3JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1 -o WWTree_DY3JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1 -w 102.4628 -no 4866978 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/DY3JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/DY3JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/DY3JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2.log
+Arguments = -n DY3JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2 -o WWTree_DY3JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2 -w 102.4628 -no 4866978 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1.log
+Arguments = -n DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1 -o WWTree_DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1 -w 334.717838 -no 19296117 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2.log
+Arguments = -n DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2 -o WWTree_DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2 -w 334.717838 -no 19296117 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_3.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_3.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_3.log
+Arguments = -n DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_3 -o WWTree_DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_3 -w 334.717838 -no 19296117 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_4.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_4.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_4.log
+Arguments = -n DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_4 -o WWTree_DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_4 -w 334.717838 -no 19296117 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_5.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_5.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_5.log
+Arguments = -n DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_5 -o WWTree_DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_5 -w 334.717838 -no 19296117 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1.log
+Arguments = -n DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1 -o WWTree_DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1 -w 1012.296845 -no 52602172 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2.log
+Arguments = -n DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2 -o WWTree_DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2 -w 1012.296845 -no 52602172 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_3.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_3.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_3.log
+Arguments = -n DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_3 -o WWTree_DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_3 -w 1012.296845 -no 52602172 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_4.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_4.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_4.log
+Arguments = -n DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_4 -o WWTree_DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_4 -w 1012.296845 -no 52602172 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_5.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_5.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_5.log
+Arguments = -n DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_5 -o WWTree_DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_5 -w 1012.296845 -no 52602172 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_6.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_6.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_6.log
+Arguments = -n DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_6 -o WWTree_DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_6 -w 1012.296845 -no 52602172 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_7.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_7.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_7.log
+Arguments = -n DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_7 -o WWTree_DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_7 -w 1012.296845 -no 52602172 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_8.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_8.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_8.log
+Arguments = -n DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_8 -o WWTree_DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_8 -w 1012.296845 -no 52602172 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_9.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_9.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_9.log
+Arguments = -n DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_9 -o WWTree_DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_9 -w 1012.296845 -no 52602172 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_100To200_13TeV.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_100To200_13TeV.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WJetsToLNu_HT_100To200_13TeV.log
+Arguments = -n WJetsToLNu_HT_100To200_13TeV -o WWTree_WJetsToLNu_HT_100To200_13TeV -w 1627.45 -no 79165703 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_100To200_13TeV_ext1_1.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_100To200_13TeV_ext1_1.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WJetsToLNu_HT_100To200_13TeV_ext1_1.log
+Arguments = -n WJetsToLNu_HT_100To200_13TeV_ext1_1 -o WWTree_WJetsToLNu_HT_100To200_13TeV_ext1_1 -w 1627.45 -no 79165703 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_100To200_13TeV_ext1_2.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_100To200_13TeV_ext1_2.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WJetsToLNu_HT_100To200_13TeV_ext1_2.log
+Arguments = -n WJetsToLNu_HT_100To200_13TeV_ext1_2 -o WWTree_WJetsToLNu_HT_100To200_13TeV_ext1_2 -w 1627.45 -no 79165703 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_100To200_13TeV_ext1_3.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_100To200_13TeV_ext1_3.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WJetsToLNu_HT_100To200_13TeV_ext1_3.log
+Arguments = -n WJetsToLNu_HT_100To200_13TeV_ext1_3 -o WWTree_WJetsToLNu_HT_100To200_13TeV_ext1_3 -w 1627.45 -no 79165703 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_100To200_13TeV_ext1_4.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_100To200_13TeV_ext1_4.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WJetsToLNu_HT_100To200_13TeV_ext1_4.log
+Arguments = -n WJetsToLNu_HT_100To200_13TeV_ext1_4 -o WWTree_WJetsToLNu_HT_100To200_13TeV_ext1_4 -w 1627.45 -no 79165703 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_100To200_13TeV_ext1_5.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_100To200_13TeV_ext1_5.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WJetsToLNu_HT_100To200_13TeV_ext1_5.log
+Arguments = -n WJetsToLNu_HT_100To200_13TeV_ext1_5 -o WWTree_WJetsToLNu_HT_100To200_13TeV_ext1_5 -w 1627.45 -no 79165703 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_100To200_13TeV_ext1_6.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_100To200_13TeV_ext1_6.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WJetsToLNu_HT_100To200_13TeV_ext1_6.log
+Arguments = -n WJetsToLNu_HT_100To200_13TeV_ext1_6 -o WWTree_WJetsToLNu_HT_100To200_13TeV_ext1_6 -w 1627.45 -no 79165703 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_100To200_13TeV_ext2_1.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_100To200_13TeV_ext2_1.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WJetsToLNu_HT_100To200_13TeV_ext2_1.log
+Arguments = -n WJetsToLNu_HT_100To200_13TeV_ext2_1 -o WWTree_WJetsToLNu_HT_100To200_13TeV_ext2_1 -w 1627.45 -no 79165703 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_100To200_13TeV_ext2_2.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_100To200_13TeV_ext2_2.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WJetsToLNu_HT_100To200_13TeV_ext2_2.log
+Arguments = -n WJetsToLNu_HT_100To200_13TeV_ext2_2 -o WWTree_WJetsToLNu_HT_100To200_13TeV_ext2_2 -w 1627.45 -no 79165703 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_100To200_13TeV_ext2_3.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_100To200_13TeV_ext2_3.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WJetsToLNu_HT_100To200_13TeV_ext2_3.log
+Arguments = -n WJetsToLNu_HT_100To200_13TeV_ext2_3 -o WWTree_WJetsToLNu_HT_100To200_13TeV_ext2_3 -w 1627.45 -no 79165703 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_100To200_13TeV_ext2_4.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_100To200_13TeV_ext2_4.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WJetsToLNu_HT_100To200_13TeV_ext2_4.log
+Arguments = -n WJetsToLNu_HT_100To200_13TeV_ext2_4 -o WWTree_WJetsToLNu_HT_100To200_13TeV_ext2_4 -w 1627.45 -no 79165703 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_100To200_13TeV_ext2_5.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_100To200_13TeV_ext2_5.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WJetsToLNu_HT_100To200_13TeV_ext2_5.log
+Arguments = -n WJetsToLNu_HT_100To200_13TeV_ext2_5 -o WWTree_WJetsToLNu_HT_100To200_13TeV_ext2_5 -w 1627.45 -no 79165703 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_100To200_13TeV_ext2_6.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_100To200_13TeV_ext2_6.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WJetsToLNu_HT_100To200_13TeV_ext2_6.log
+Arguments = -n WJetsToLNu_HT_100To200_13TeV_ext2_6 -o WWTree_WJetsToLNu_HT_100To200_13TeV_ext2_6 -w 1627.45 -no 79165703 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_100To200_13TeV_ext2_7.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_100To200_13TeV_ext2_7.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WJetsToLNu_HT_100To200_13TeV_ext2_7.log
+Arguments = -n WJetsToLNu_HT_100To200_13TeV_ext2_7 -o WWTree_WJetsToLNu_HT_100To200_13TeV_ext2_7 -w 1627.45 -no 79165703 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_100To200_13TeV_ext2_8.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_100To200_13TeV_ext2_8.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WJetsToLNu_HT_100To200_13TeV_ext2_8.log
+Arguments = -n WJetsToLNu_HT_100To200_13TeV_ext2_8 -o WWTree_WJetsToLNu_HT_100To200_13TeV_ext2_8 -w 1627.45 -no 79165703 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_200To400_13TeV.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_200To400_13TeV.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WJetsToLNu_HT_200To400_13TeV.log
+Arguments = -n WJetsToLNu_HT_200To400_13TeV -o WWTree_WJetsToLNu_HT_200To400_13TeV -w 435.24 -no 38925816 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_200To400_13TeV_ext1.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_200To400_13TeV_ext1.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WJetsToLNu_HT_200To400_13TeV_ext1.log
+Arguments = -n WJetsToLNu_HT_200To400_13TeV_ext1 -o WWTree_WJetsToLNu_HT_200To400_13TeV_ext1 -w 435.24 -no 38925816 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_200To400_13TeV_ext2.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_200To400_13TeV_ext2.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WJetsToLNu_HT_200To400_13TeV_ext2.log
+Arguments = -n WJetsToLNu_HT_200To400_13TeV_ext2 -o WWTree_WJetsToLNu_HT_200To400_13TeV_ext2 -w 435.24 -no 38925816 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_200To400_13TeV_ext2_1.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_200To400_13TeV_ext2_1.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WJetsToLNu_HT_200To400_13TeV_ext2_1.log
+Arguments = -n WJetsToLNu_HT_200To400_13TeV_ext2_1 -o WWTree_WJetsToLNu_HT_200To400_13TeV_ext2_1 -w 435.24 -no 38925816 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_200To400_13TeV_ext2_2.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_200To400_13TeV_ext2_2.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WJetsToLNu_HT_200To400_13TeV_ext2_2.log
+Arguments = -n WJetsToLNu_HT_200To400_13TeV_ext2_2 -o WWTree_WJetsToLNu_HT_200To400_13TeV_ext2_2 -w 435.24 -no 38925816 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_200To400_13TeV_ext2_3.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_200To400_13TeV_ext2_3.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WJetsToLNu_HT_200To400_13TeV_ext2_3.log
+Arguments = -n WJetsToLNu_HT_200To400_13TeV_ext2_3 -o WWTree_WJetsToLNu_HT_200To400_13TeV_ext2_3 -w 435.24 -no 38925816 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_400To600_13TeV.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_400To600_13TeV.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WJetsToLNu_HT_400To600_13TeV.log
+Arguments = -n WJetsToLNu_HT_400To600_13TeV -o WWTree_WJetsToLNu_HT_400To600_13TeV -w 59.18 -no 7754252 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_400To600_13TeV_ext1.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_400To600_13TeV_ext1.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WJetsToLNu_HT_400To600_13TeV_ext1.log
+Arguments = -n WJetsToLNu_HT_400To600_13TeV_ext1 -o WWTree_WJetsToLNu_HT_400To600_13TeV_ext1 -w 59.18 -no 7754252 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_600To800_13TeV.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_600To800_13TeV.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WJetsToLNu_HT_600To800_13TeV.log
+Arguments = -n WJetsToLNu_HT_600To800_13TeV -o WWTree_WJetsToLNu_HT_600To800_13TeV -w 14.58 -no 18578604 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_600To800_13TeV_ext1_1.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_600To800_13TeV_ext1_1.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WJetsToLNu_HT_600To800_13TeV_ext1_1.log
+Arguments = -n WJetsToLNu_HT_600To800_13TeV_ext1_1 -o WWTree_WJetsToLNu_HT_600To800_13TeV_ext1_1 -w 14.58 -no 18578604 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_600To800_13TeV_ext1_2.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_600To800_13TeV_ext1_2.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WJetsToLNu_HT_600To800_13TeV_ext1_2.log
+Arguments = -n WJetsToLNu_HT_600To800_13TeV_ext1_2 -o WWTree_WJetsToLNu_HT_600To800_13TeV_ext1_2 -w 14.58 -no 18578604 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_800To1200_13TeV.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_800To1200_13TeV.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WJetsToLNu_HT_800To1200_13TeV.log
+Arguments = -n WJetsToLNu_HT_800To1200_13TeV -o WWTree_WJetsToLNu_HT_800To1200_13TeV -w 6.656 -no 7688957 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_800To1200_13TeV_ext1.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_800To1200_13TeV_ext1.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WJetsToLNu_HT_800To1200_13TeV_ext1.log
+Arguments = -n WJetsToLNu_HT_800To1200_13TeV_ext1 -o WWTree_WJetsToLNu_HT_800To1200_13TeV_ext1 -w 6.656 -no 7688957 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_1200To2500_13TeV.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_1200To2500_13TeV.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WJetsToLNu_HT_1200To2500_13TeV.log
+Arguments = -n WJetsToLNu_HT_1200To2500_13TeV -o WWTree_WJetsToLNu_HT_1200To2500_13TeV -w 1.60809 -no 6708656 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_1200To2500_13TeV_ext1.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_1200To2500_13TeV_ext1.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WJetsToLNu_HT_1200To2500_13TeV_ext1.log
+Arguments = -n WJetsToLNu_HT_1200To2500_13TeV_ext1 -o WWTree_WJetsToLNu_HT_1200To2500_13TeV_ext1 -w 1.60809 -no 6708656 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_2500ToInf_13TeV.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_2500ToInf_13TeV.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WJetsToLNu_HT_2500ToInf_13TeV.log
+Arguments = -n WJetsToLNu_HT_2500ToInf_13TeV -o WWTree_WJetsToLNu_HT_2500ToInf_13TeV -w 0.0389136 -no 2520618 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_2500ToInf_13TeV_ext1.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WJetsToLNu_HT_2500ToInf_13TeV_ext1.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WJetsToLNu_HT_2500ToInf_13TeV_ext1.log
+Arguments = -n WJetsToLNu_HT_2500ToInf_13TeV_ext1 -o WWTree_WJetsToLNu_HT_2500ToInf_13TeV_ext1 -w 0.0389136 -no 2520618 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WWTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8.log
+Arguments = -n WWTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8 -o WWTree_WWTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8 -w 49.997 -no 5057358 -noNeg 953706 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/ZZ_13TeV_pythia8.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/ZZ_13TeV_pythia8.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/ZZ_13TeV_pythia8.log
+Arguments = -n ZZ_13TeV_pythia8 -o WWTree_ZZ_13TeV_pythia8 -w 16.532 -no 990051 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WZTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8_1.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WZTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8_1.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WZTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8_1.log
+Arguments = -n WZTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8_1 -o WWTree_WZTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8_1 -w 10.71 -no 23766546 -noNeg 4986275 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WZTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8_2.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WZTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8_2.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WZTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8_2.log
+Arguments = -n WZTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8_2 -o WWTree_WZTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8_2 -w 10.71 -no 23766546 -noNeg 4986275 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WZTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8_3.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WZTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8_3.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WZTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8_3.log
+Arguments = -n WZTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8_3 -o WWTree_WZTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8_3 -w 10.71 -no 23766546 -noNeg 4986275 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/ZZTo2L2Q_13TeV_amcatnloFXFX_madspin_pythia8.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/ZZTo2L2Q_13TeV_amcatnloFXFX_madspin_pythia8.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/ZZTo2L2Q_13TeV_amcatnloFXFX_madspin_pythia8.log
+Arguments = -n ZZTo2L2Q_13TeV_amcatnloFXFX_madspin_pythia8 -o WWTree_ZZTo2L2Q_13TeV_amcatnloFXFX_madspin_pythia8 -w 3.22 -no 15345161 -noNeg 2828391 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WZTo2L2Q_13TeV_amcatnloFXFX_madspin_pythia8.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WZTo2L2Q_13TeV_amcatnloFXFX_madspin_pythia8.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WZTo2L2Q_13TeV_amcatnloFXFX_madspin_pythia8.log
+Arguments = -n WZTo2L2Q_13TeV_amcatnloFXFX_madspin_pythia8 -o WWTree_WZTo2L2Q_13TeV_amcatnloFXFX_madspin_pythia8 -w 5.595 -no 26516586 -noNeg 5318729 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWZ_13TeV_amcatnlo_pythia8.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWZ_13TeV_amcatnlo_pythia8.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/WWZ_13TeV_amcatnlo_pythia8.log
+Arguments = -n WWZ_13TeV_amcatnlo_pythia8 -o WWTree_WWZ_13TeV_amcatnlo_pythia8 -w 0.1651 -no 269990 -noNeg 15372 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/ZZZ_13TeV_amcatnlo_pythia8.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/ZZZ_13TeV_amcatnlo_pythia8.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/ZZZ_13TeV_amcatnlo_pythia8.log
+Arguments = -n ZZZ_13TeV_amcatnlo_pythia8 -o WWTree_ZZZ_13TeV_amcatnlo_pythia8 -w 0.01398 -no 249232 -noNeg 18020 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/TTToSemilepton_powheg_1.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/TTToSemilepton_powheg_1.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/TTToSemilepton_powheg_1.log
+Arguments = -n TTToSemilepton_powheg_1 -o WWTree_TTToSemilepton_powheg_1 -w 362.5764 -no 91832423 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/TTToSemilepton_powheg_2.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/TTToSemilepton_powheg_2.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/TTToSemilepton_powheg_2.log
+Arguments = -n TTToSemilepton_powheg_2 -o WWTree_TTToSemilepton_powheg_2 -w 362.5764 -no 91832423 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/TTToSemilepton_powheg_3.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/TTToSemilepton_powheg_3.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/TTToSemilepton_powheg_3.log
+Arguments = -n TTToSemilepton_powheg_3 -o WWTree_TTToSemilepton_powheg_3 -w 362.5764 -no 91832423 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/TTToSemilepton_powheg_4.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/TTToSemilepton_powheg_4.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/TTToSemilepton_powheg_4.log
+Arguments = -n TTToSemilepton_powheg_4 -o WWTree_TTToSemilepton_powheg_4 -w 362.5764 -no 91832423 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/TTToSemilepton_powheg_5.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/TTToSemilepton_powheg_5.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/TTToSemilepton_powheg_5.log
+Arguments = -n TTToSemilepton_powheg_5 -o WWTree_TTToSemilepton_powheg_5 -w 362.5764 -no 91832423 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/TTToSemilepton_powheg_6.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/TTToSemilepton_powheg_6.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/TTToSemilepton_powheg_6.log
+Arguments = -n TTToSemilepton_powheg_6 -o WWTree_TTToSemilepton_powheg_6 -w 362.5764 -no 91832423 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/TTZToLLNuNu_M-10.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/TTZToLLNuNu_M-10.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/TTZToLLNuNu_M-10.log
+Arguments = -n TTZToLLNuNu_M-10 -o WWTree_TTZToLLNuNu_M-10 -w 0.2529 -no 7969186 -noNeg 2126557 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/TTZToQQ.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/TTZToQQ.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/TTZToQQ.log
+Arguments = -n TTZToQQ -o WWTree_TTZToQQ -w 0.5297 -no 749367 -noNeg 199113 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/TTZToLLNuNu_M-10_ext2.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/TTZToLLNuNu_M-10_ext2.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/TTZToLLNuNu_M-10_ext2.log
+Arguments = -n TTZToLLNuNu_M-10_ext2 -o WWTree_TTZToLLNuNu_M-10_ext2 -w 0.2529 -no 7969186 -noNeg 2126557 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/TTWJetsToQQ.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/TTWJetsToQQ.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/TTWJetsToQQ.log
+Arguments = -n TTWJetsToQQ -o WWTree_TTWJetsToQQ -w 0.4062 -no 833257 -noNeg 201483 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/TTWJetsToLNu_ext1.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/TTWJetsToLNu_ext1.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/TTWJetsToLNu_ext1.log
+Arguments = -n TTWJetsToLNu_ext1 -o WWTree_TTWJetsToLNu_ext1 -w 0.2043 -no 5280251 -noNeg 1282079 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/TTWJetsToLNu_ext2.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/TTWJetsToLNu_ext2.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/TTWJetsToLNu_ext2.log
+Arguments = -n TTWJetsToLNu_ext2 -o WWTree_TTWJetsToLNu_ext2 -w 0.2043 -no 5280251 -noNeg 1282079 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Summer16_ST_s_channel_4f_leptonDecays.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Summer16_ST_s_channel_4f_leptonDecays.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/Summer16_ST_s_channel_4f_leptonDecays.log
+Arguments = -n Summer16_ST_s_channel_4f_leptonDecays -o WWTree_Summer16_ST_s_channel_4f_leptonDecays -w 11.36 -no 999976 -noNeg 188501 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/ST_tW_top_5f_NoFullyHadronicDecays_13TeV_powheg_TuneCUETP8M1.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/ST_tW_top_5f_NoFullyHadronicDecays_13TeV_powheg_TuneCUETP8M1.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/ST_tW_top_5f_NoFullyHadronicDecays_13TeV_powheg_TuneCUETP8M1.log
+Arguments = -n ST_tW_top_5f_NoFullyHadronicDecays_13TeV_powheg_TuneCUETP8M1 -o WWTree_ST_tW_top_5f_NoFullyHadronicDecays_13TeV_powheg_TuneCUETP8M1 -w 19.5741 -no 5372830 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Summer16_ST_t_channel_top_4f_inclusiveDecays_TuneCUETP8M2T4.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Summer16_ST_t_channel_top_4f_inclusiveDecays_TuneCUETP8M2T4.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/Summer16_ST_t_channel_top_4f_inclusiveDecays_TuneCUETP8M2T4.log
+Arguments = -n Summer16_ST_t_channel_top_4f_inclusiveDecays_TuneCUETP8M2T4 -o WWTree_Summer16_ST_t_channel_top_4f_inclusiveDecays_TuneCUETP8M2T4 -w 136.02 -no 5993570 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/ST_tW_antitop_5f_NoFullyHadronicDecays_13TeV_powheg_TuneCUETP8M1.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/ST_tW_antitop_5f_NoFullyHadronicDecays_13TeV_powheg_TuneCUETP8M1.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/ST_tW_antitop_5f_NoFullyHadronicDecays_13TeV_powheg_TuneCUETP8M1.log
+Arguments = -n ST_tW_antitop_5f_NoFullyHadronicDecays_13TeV_powheg_TuneCUETP8M1 -o WWTree_ST_tW_antitop_5f_NoFullyHadronicDecays_13TeV_powheg_TuneCUETP8M1 -w 19.5741 -no 5424956 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Summer16_ST_t_channel_antitop_4f_inclusiveDecays_TuneCUETP8M2T4.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Summer16_ST_t_channel_antitop_4f_inclusiveDecays_TuneCUETP8M2T4.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/Summer16_ST_t_channel_antitop_4f_inclusiveDecays_TuneCUETP8M2T4.log
+Arguments = -n Summer16_ST_t_channel_antitop_4f_inclusiveDecays_TuneCUETP8M2T4 -o WWTree_Summer16_ST_t_channel_antitop_4f_inclusiveDecays_TuneCUETP8M2T4 -w 80.95 -no 3927980 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/QCD_HT100to200_13TeV_1.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/QCD_HT100to200_13TeV_1.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/QCD_HT100to200_13TeV_1.log
+Arguments = -n QCD_HT100to200_13TeV_1 -o WWTree_QCD_HT100to200_13TeV_1 -w 27990000.0 -no 80614044 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/QCD_HT100to200_13TeV_2.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/QCD_HT100to200_13TeV_2.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/QCD_HT100to200_13TeV_2.log
+Arguments = -n QCD_HT100to200_13TeV_2 -o WWTree_QCD_HT100to200_13TeV_2 -w 27990000.0 -no 80614044 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/QCD_HT100to200_13TeV_3.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/QCD_HT100to200_13TeV_3.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/QCD_HT100to200_13TeV_3.log
+Arguments = -n QCD_HT100to200_13TeV_3 -o WWTree_QCD_HT100to200_13TeV_3 -w 27990000.0 -no 80614044 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/QCD_HT100to200_13TeV_4.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/QCD_HT100to200_13TeV_4.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/QCD_HT100to200_13TeV_4.log
+Arguments = -n QCD_HT100to200_13TeV_4 -o WWTree_QCD_HT100to200_13TeV_4 -w 27990000.0 -no 80614044 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/QCD_HT100to200_13TeV_5.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/QCD_HT100to200_13TeV_5.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/QCD_HT100to200_13TeV_5.log
+Arguments = -n QCD_HT100to200_13TeV_5 -o WWTree_QCD_HT100to200_13TeV_5 -w 27990000.0 -no 80614044 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/QCD_HT100to200_13TeV_6.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/QCD_HT100to200_13TeV_6.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/QCD_HT100to200_13TeV_6.log
+Arguments = -n QCD_HT100to200_13TeV_6 -o WWTree_QCD_HT100to200_13TeV_6 -w 27990000.0 -no 80614044 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/QCD_HT200to300_13TeV.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/QCD_HT200to300_13TeV.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/QCD_HT200to300_13TeV.log
+Arguments = -n QCD_HT200to300_13TeV -o WWTree_QCD_HT200to300_13TeV -w 1712000.0 -no 54280031 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/QCD_HT200to300_13TeV_ext_1.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/QCD_HT200to300_13TeV_ext_1.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/QCD_HT200to300_13TeV_ext_1.log
+Arguments = -n QCD_HT200to300_13TeV_ext_1 -o WWTree_QCD_HT200to300_13TeV_ext_1 -w 1712000.0 -no 54280031 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/QCD_HT200to300_13TeV_ext_2.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/QCD_HT200to300_13TeV_ext_2.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/QCD_HT200to300_13TeV_ext_2.log
+Arguments = -n QCD_HT200to300_13TeV_ext_2 -o WWTree_QCD_HT200to300_13TeV_ext_2 -w 1712000.0 -no 54280031 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/QCD_HT300to500_13TeV.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/QCD_HT300to500_13TeV.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/QCD_HT300to500_13TeV.log
+Arguments = -n QCD_HT300to500_13TeV -o WWTree_QCD_HT300to500_13TeV -w 347700.0 -no 26924854 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/QCD_HT300to500_13TeV_ext.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/QCD_HT300to500_13TeV_ext.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/QCD_HT300to500_13TeV_ext.log
+Arguments = -n QCD_HT300to500_13TeV_ext -o WWTree_QCD_HT300to500_13TeV_ext -w 347700.0 -no 26924854 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/QCD_HT500to700_13TeV.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/QCD_HT500to700_13TeV.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/QCD_HT500to700_13TeV.log
+Arguments = -n QCD_HT500to700_13TeV -o WWTree_QCD_HT500to700_13TeV -w 32100.0 -no 53744436 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/QCD_HT500to700_13TeV_ext_1.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/QCD_HT500to700_13TeV_ext_1.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/QCD_HT500to700_13TeV_ext_1.log
+Arguments = -n QCD_HT500to700_13TeV_ext_1 -o WWTree_QCD_HT500to700_13TeV_ext_1 -w 32100.0 -no 53744436 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/QCD_HT500to700_13TeV_ext_2.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/QCD_HT500to700_13TeV_ext_2.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/QCD_HT500to700_13TeV_ext_2.log
+Arguments = -n QCD_HT500to700_13TeV_ext_2 -o WWTree_QCD_HT500to700_13TeV_ext_2 -w 32100.0 -no 53744436 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/QCD_HT500to700_13TeV_ext_3.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/QCD_HT500to700_13TeV_ext_3.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/QCD_HT500to700_13TeV_ext_3.log
+Arguments = -n QCD_HT500to700_13TeV_ext_3 -o WWTree_QCD_HT500to700_13TeV_ext_3 -w 32100.0 -no 53744436 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/QCD_HT700to1000_13TeV.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/QCD_HT700to1000_13TeV.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/QCD_HT700to1000_13TeV.log
+Arguments = -n QCD_HT700to1000_13TeV -o WWTree_QCD_HT700to1000_13TeV -w 6831.0 -no 42658677 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/QCD_HT700to1000_13TeV_ext.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/QCD_HT700to1000_13TeV_ext.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/QCD_HT700to1000_13TeV_ext.log
+Arguments = -n QCD_HT700to1000_13TeV_ext -o WWTree_QCD_HT700to1000_13TeV_ext -w 6831.0 -no 42658677 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/QCD_HT1000to1500_13TeV.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/QCD_HT1000to1500_13TeV.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/QCD_HT1000to1500_13TeV.log
+Arguments = -n QCD_HT1000to1500_13TeV -o WWTree_QCD_HT1000to1500_13TeV -w 1207.0 -no 13080692 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/QCD_HT1000to1500_13TeV_ext.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/QCD_HT1000to1500_13TeV_ext.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/QCD_HT1000to1500_13TeV_ext.log
+Arguments = -n QCD_HT1000to1500_13TeV_ext -o WWTree_QCD_HT1000to1500_13TeV_ext -w 1207.0 -no 13080692 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/QCD_HT1500to2000_13TeV.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/QCD_HT1500to2000_13TeV.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/QCD_HT1500to2000_13TeV.log
+Arguments = -n QCD_HT1500to2000_13TeV -o WWTree_QCD_HT1500to2000_13TeV -w 119.9 -no 11624720 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/QCD_HT1500to2000_13TeV_ext.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/QCD_HT1500to2000_13TeV_ext.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/QCD_HT1500to2000_13TeV_ext.log
+Arguments = -n QCD_HT1500to2000_13TeV_ext -o WWTree_QCD_HT1500to2000_13TeV_ext -w 119.9 -no 11624720 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/QCD_HT2000toInf_13TeV.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/QCD_HT2000toInf_13TeV.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/QCD_HT2000toInf_13TeV.log
+Arguments = -n QCD_HT2000toInf_13TeV -o WWTree_QCD_HT2000toInf_13TeV -w 25.24 -no 5875869 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/QCD_HT2000toInf_13TeV_ext.stdout
+Error  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/QCD_HT2000toInf_13TeV_ext.stdout
+Log  = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/QCD_HT2000toInf_13TeV_ext.log
+Arguments = -n QCD_HT2000toInf_13TeV_ext -o WWTree_QCD_HT2000toInf_13TeV_ext -w 25.24 -no 5875869 -noNeg 0 -lumi 35900.0 --ismc 1 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleElectron_Run2016B-03Feb2017_ver1-v1.stdout
+Error = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleElectron_Run2016B-03Feb2017_ver1-v1.stdout
+Log = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/SingleElectron_Run2016B-03Feb2017_ver1-v1.log
+Arguments = -n SingleElectron_Run2016B-03Feb2017_ver1-v1 -o WWTree_SingleElectron_Run2016B-03Feb2017_ver1-v1_el -w 1. -no 1. --ismc 0 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleElectron_Run2016B-03Feb2017_ver2-v2_1.stdout
+Error = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleElectron_Run2016B-03Feb2017_ver2-v2_1.stdout
+Log = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/SingleElectron_Run2016B-03Feb2017_ver2-v2_1.log
+Arguments = -n SingleElectron_Run2016B-03Feb2017_ver2-v2_1 -o WWTree_SingleElectron_Run2016B-03Feb2017_ver2-v2_1_el -w 1. -no 1. --ismc 0 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleElectron_Run2016B-03Feb2017_ver2-v2_2.stdout
+Error = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleElectron_Run2016B-03Feb2017_ver2-v2_2.stdout
+Log = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/SingleElectron_Run2016B-03Feb2017_ver2-v2_2.log
+Arguments = -n SingleElectron_Run2016B-03Feb2017_ver2-v2_2 -o WWTree_SingleElectron_Run2016B-03Feb2017_ver2-v2_2_el -w 1. -no 1. --ismc 0 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleElectron_Run2016B-03Feb2017_ver2-v2_3.stdout
+Error = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleElectron_Run2016B-03Feb2017_ver2-v2_3.stdout
+Log = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/SingleElectron_Run2016B-03Feb2017_ver2-v2_3.log
+Arguments = -n SingleElectron_Run2016B-03Feb2017_ver2-v2_3 -o WWTree_SingleElectron_Run2016B-03Feb2017_ver2-v2_3_el -w 1. -no 1. --ismc 0 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleElectron_Run2016B-03Feb2017_ver2-v2_4.stdout
+Error = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleElectron_Run2016B-03Feb2017_ver2-v2_4.stdout
+Log = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/SingleElectron_Run2016B-03Feb2017_ver2-v2_4.log
+Arguments = -n SingleElectron_Run2016B-03Feb2017_ver2-v2_4 -o WWTree_SingleElectron_Run2016B-03Feb2017_ver2-v2_4_el -w 1. -no 1. --ismc 0 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleElectron_Run2016B-03Feb2017_ver2-v2_5.stdout
+Error = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleElectron_Run2016B-03Feb2017_ver2-v2_5.stdout
+Log = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/SingleElectron_Run2016B-03Feb2017_ver2-v2_5.log
+Arguments = -n SingleElectron_Run2016B-03Feb2017_ver2-v2_5 -o WWTree_SingleElectron_Run2016B-03Feb2017_ver2-v2_5_el -w 1. -no 1. --ismc 0 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleElectron_Run2016C-03Feb2017-v1.stdout
+Error = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleElectron_Run2016C-03Feb2017-v1.stdout
+Log = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/SingleElectron_Run2016C-03Feb2017-v1.log
+Arguments = -n SingleElectron_Run2016C-03Feb2017-v1 -o WWTree_SingleElectron_Run2016C-03Feb2017-v1_el -w 1. -no 1. --ismc 0 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleElectron_Run2016D-03Feb2017-v1_1.stdout
+Error = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleElectron_Run2016D-03Feb2017-v1_1.stdout
+Log = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/SingleElectron_Run2016D-03Feb2017-v1_1.log
+Arguments = -n SingleElectron_Run2016D-03Feb2017-v1_1 -o WWTree_SingleElectron_Run2016D-03Feb2017-v1_1_el -w 1. -no 1. --ismc 0 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleElectron_Run2016D-03Feb2017-v1_2.stdout
+Error = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleElectron_Run2016D-03Feb2017-v1_2.stdout
+Log = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/SingleElectron_Run2016D-03Feb2017-v1_2.log
+Arguments = -n SingleElectron_Run2016D-03Feb2017-v1_2 -o WWTree_SingleElectron_Run2016D-03Feb2017-v1_2_el -w 1. -no 1. --ismc 0 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleElectron_Run2016D-03Feb2017-v1_3.stdout
+Error = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleElectron_Run2016D-03Feb2017-v1_3.stdout
+Log = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/SingleElectron_Run2016D-03Feb2017-v1_3.log
+Arguments = -n SingleElectron_Run2016D-03Feb2017-v1_3 -o WWTree_SingleElectron_Run2016D-03Feb2017-v1_3_el -w 1. -no 1. --ismc 0 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleElectron_Run2016E-03Feb2017-v1_1.stdout
+Error = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleElectron_Run2016E-03Feb2017-v1_1.stdout
+Log = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/SingleElectron_Run2016E-03Feb2017-v1_1.log
+Arguments = -n SingleElectron_Run2016E-03Feb2017-v1_1 -o WWTree_SingleElectron_Run2016E-03Feb2017-v1_1_el -w 1. -no 1. --ismc 0 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleElectron_Run2016E-03Feb2017-v1_2.stdout
+Error = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleElectron_Run2016E-03Feb2017-v1_2.stdout
+Log = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/SingleElectron_Run2016E-03Feb2017-v1_2.log
+Arguments = -n SingleElectron_Run2016E-03Feb2017-v1_2 -o WWTree_SingleElectron_Run2016E-03Feb2017-v1_2_el -w 1. -no 1. --ismc 0 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleElectronRun2016F_03Feb2017_v1.stdout
+Error = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleElectronRun2016F_03Feb2017_v1.stdout
+Log = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/SingleElectronRun2016F_03Feb2017_v1.log
+Arguments = -n SingleElectronRun2016F_03Feb2017_v1 -o WWTree_SingleElectronRun2016F_03Feb2017_v1_el -w 1. -no 1. --ismc 0 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleElectron_Run2016G-03Feb2017-v1_1.stdout
+Error = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleElectron_Run2016G-03Feb2017-v1_1.stdout
+Log = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/SingleElectron_Run2016G-03Feb2017-v1_1.log
+Arguments = -n SingleElectron_Run2016G-03Feb2017-v1_1 -o WWTree_SingleElectron_Run2016G-03Feb2017-v1_1_el -w 1. -no 1. --ismc 0 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleElectron_Run2016G-03Feb2017-v1_2.stdout
+Error = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleElectron_Run2016G-03Feb2017-v1_2.stdout
+Log = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/SingleElectron_Run2016G-03Feb2017-v1_2.log
+Arguments = -n SingleElectron_Run2016G-03Feb2017-v1_2 -o WWTree_SingleElectron_Run2016G-03Feb2017-v1_2_el -w 1. -no 1. --ismc 0 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleElectron_Run2016G-03Feb2017-v1_3.stdout
+Error = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleElectron_Run2016G-03Feb2017-v1_3.stdout
+Log = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/SingleElectron_Run2016G-03Feb2017-v1_3.log
+Arguments = -n SingleElectron_Run2016G-03Feb2017-v1_3 -o WWTree_SingleElectron_Run2016G-03Feb2017-v1_3_el -w 1. -no 1. --ismc 0 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleElectronRun2016H_03Feb2017_ver2_v1_1.stdout
+Error = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleElectronRun2016H_03Feb2017_ver2_v1_1.stdout
+Log = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/SingleElectronRun2016H_03Feb2017_ver2_v1_1.log
+Arguments = -n SingleElectronRun2016H_03Feb2017_ver2_v1_1 -o WWTree_SingleElectronRun2016H_03Feb2017_ver2_v1_1_el -w 1. -no 1. --ismc 0 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleElectronRun2016H_03Feb2017_ver2_v1_2.stdout
+Error = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleElectronRun2016H_03Feb2017_ver2_v1_2.stdout
+Log = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/SingleElectronRun2016H_03Feb2017_ver2_v1_2.log
+Arguments = -n SingleElectronRun2016H_03Feb2017_ver2_v1_2 -o WWTree_SingleElectronRun2016H_03Feb2017_ver2_v1_2_el -w 1. -no 1. --ismc 0 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleElectronRun2016H_03Feb2017_ver3_v1.stdout
+Error = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleElectronRun2016H_03Feb2017_ver3_v1.stdout
+Log = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/SingleElectronRun2016H_03Feb2017_ver3_v1.log
+Arguments = -n SingleElectronRun2016H_03Feb2017_ver3_v1 -o WWTree_SingleElectronRun2016H_03Feb2017_ver3_v1_el -w 1. -no 1. --ismc 0 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleMuonRun2016B_03Feb2017_ver1_v1.stdout
+Error = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleMuonRun2016B_03Feb2017_ver1_v1.stdout
+Log = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/SingleMuonRun2016B_03Feb2017_ver1_v1.log
+Arguments = -n SingleMuonRun2016B_03Feb2017_ver1_v1 -o WWTree_SingleMuonRun2016B_03Feb2017_ver1_v1_mu -w 1. -no 1. --ismc 0 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleMuonRun2016B_03Feb2017_ver2_v2_1.stdout
+Error = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleMuonRun2016B_03Feb2017_ver2_v2_1.stdout
+Log = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/SingleMuonRun2016B_03Feb2017_ver2_v2_1.log
+Arguments = -n SingleMuonRun2016B_03Feb2017_ver2_v2_1 -o WWTree_SingleMuonRun2016B_03Feb2017_ver2_v2_1_mu -w 1. -no 1. --ismc 0 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleMuonRun2016B_03Feb2017_ver2_v2_2.stdout
+Error = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleMuonRun2016B_03Feb2017_ver2_v2_2.stdout
+Log = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/SingleMuonRun2016B_03Feb2017_ver2_v2_2.log
+Arguments = -n SingleMuonRun2016B_03Feb2017_ver2_v2_2 -o WWTree_SingleMuonRun2016B_03Feb2017_ver2_v2_2_mu -w 1. -no 1. --ismc 0 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleMuonRun2016B_03Feb2017_ver2_v2_3.stdout
+Error = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleMuonRun2016B_03Feb2017_ver2_v2_3.stdout
+Log = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/SingleMuonRun2016B_03Feb2017_ver2_v2_3.log
+Arguments = -n SingleMuonRun2016B_03Feb2017_ver2_v2_3 -o WWTree_SingleMuonRun2016B_03Feb2017_ver2_v2_3_mu -w 1. -no 1. --ismc 0 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleMuonRun2016C_03Feb2017_v1.stdout
+Error = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleMuonRun2016C_03Feb2017_v1.stdout
+Log = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/SingleMuonRun2016C_03Feb2017_v1.log
+Arguments = -n SingleMuonRun2016C_03Feb2017_v1 -o WWTree_SingleMuonRun2016C_03Feb2017_v1_mu -w 1. -no 1. --ismc 0 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleMuonRun2016D_03Feb2017_v1_1.stdout
+Error = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleMuonRun2016D_03Feb2017_v1_1.stdout
+Log = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/SingleMuonRun2016D_03Feb2017_v1_1.log
+Arguments = -n SingleMuonRun2016D_03Feb2017_v1_1 -o WWTree_SingleMuonRun2016D_03Feb2017_v1_1_mu -w 1. -no 1. --ismc 0 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleMuonRun2016D_03Feb2017_v1_2.stdout
+Error = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleMuonRun2016D_03Feb2017_v1_2.stdout
+Log = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/SingleMuonRun2016D_03Feb2017_v1_2.log
+Arguments = -n SingleMuonRun2016D_03Feb2017_v1_2 -o WWTree_SingleMuonRun2016D_03Feb2017_v1_2_mu -w 1. -no 1. --ismc 0 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleMuonRun2016E_03Feb2017_v1_1.stdout
+Error = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleMuonRun2016E_03Feb2017_v1_1.stdout
+Log = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/SingleMuonRun2016E_03Feb2017_v1_1.log
+Arguments = -n SingleMuonRun2016E_03Feb2017_v1_1 -o WWTree_SingleMuonRun2016E_03Feb2017_v1_1_mu -w 1. -no 1. --ismc 0 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleMuonRun2016E_03Feb2017_v1_2.stdout
+Error = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleMuonRun2016E_03Feb2017_v1_2.stdout
+Log = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/SingleMuonRun2016E_03Feb2017_v1_2.log
+Arguments = -n SingleMuonRun2016E_03Feb2017_v1_2 -o WWTree_SingleMuonRun2016E_03Feb2017_v1_2_mu -w 1. -no 1. --ismc 0 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleMuonRun2016F_03Feb2017_v1_1.stdout
+Error = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleMuonRun2016F_03Feb2017_v1_1.stdout
+Log = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/SingleMuonRun2016F_03Feb2017_v1_1.log
+Arguments = -n SingleMuonRun2016F_03Feb2017_v1_1 -o WWTree_SingleMuonRun2016F_03Feb2017_v1_1_mu -w 1. -no 1. --ismc 0 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleMuonRun2016F_03Feb2017_v1_2.stdout
+Error = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleMuonRun2016F_03Feb2017_v1_2.stdout
+Log = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/SingleMuonRun2016F_03Feb2017_v1_2.log
+Arguments = -n SingleMuonRun2016F_03Feb2017_v1_2 -o WWTree_SingleMuonRun2016F_03Feb2017_v1_2_mu -w 1. -no 1. --ismc 0 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleMuonRun2016G_03Feb2017_v1_1.stdout
+Error = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleMuonRun2016G_03Feb2017_v1_1.stdout
+Log = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/SingleMuonRun2016G_03Feb2017_v1_1.log
+Arguments = -n SingleMuonRun2016G_03Feb2017_v1_1 -o WWTree_SingleMuonRun2016G_03Feb2017_v1_1_mu -w 1. -no 1. --ismc 0 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleMuonRun2016G_03Feb2017_v1_2.stdout
+Error = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleMuonRun2016G_03Feb2017_v1_2.stdout
+Log = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/SingleMuonRun2016G_03Feb2017_v1_2.log
+Arguments = -n SingleMuonRun2016G_03Feb2017_v1_2 -o WWTree_SingleMuonRun2016G_03Feb2017_v1_2_mu -w 1. -no 1. --ismc 0 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleMuonRun2016G_03Feb2017_v1_3.stdout
+Error = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleMuonRun2016G_03Feb2017_v1_3.stdout
+Log = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/SingleMuonRun2016G_03Feb2017_v1_3.log
+Arguments = -n SingleMuonRun2016G_03Feb2017_v1_3 -o WWTree_SingleMuonRun2016G_03Feb2017_v1_3_mu -w 1. -no 1. --ismc 0 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleMuonRun2016H_03Feb2017_ver2_v1_1.stdout
+Error = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleMuonRun2016H_03Feb2017_ver2_v1_1.stdout
+Log = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/SingleMuonRun2016H_03Feb2017_ver2_v1_1.log
+Arguments = -n SingleMuonRun2016H_03Feb2017_ver2_v1_1 -o WWTree_SingleMuonRun2016H_03Feb2017_ver2_v1_1_mu -w 1. -no 1. --ismc 0 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleMuonRun2016H_03Feb2017_ver2_v1_2.stdout
+Error = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleMuonRun2016H_03Feb2017_ver2_v1_2.stdout
+Log = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/SingleMuonRun2016H_03Feb2017_ver2_v1_2.log
+Arguments = -n SingleMuonRun2016H_03Feb2017_ver2_v1_2 -o WWTree_SingleMuonRun2016H_03Feb2017_ver2_v1_2_mu -w 1. -no 1. --ismc 0 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleMuonRun2016H_03Feb2017_ver2_v1_3.stdout
+Error = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleMuonRun2016H_03Feb2017_ver2_v1_3.stdout
+Log = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/SingleMuonRun2016H_03Feb2017_ver2_v1_3.log
+Arguments = -n SingleMuonRun2016H_03Feb2017_ver2_v1_3 -o WWTree_SingleMuonRun2016H_03Feb2017_ver2_v1_3_mu -w 1. -no 1. --ismc 0 -trig 1 -c lpc
+Queue
+Output = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleMuonRun2016H_03Feb2017_ver3_v1.stdout
+Error = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/SingleMuonRun2016H_03Feb2017_ver3_v1.stdout
+Log = OutPut_Logs/Logs_CommonNtuple_For1and2Lepton_2019_05_27_05h39/Logs/SingleMuonRun2016H_03Feb2017_ver3_v1.log
+Arguments = -n SingleMuonRun2016H_03Feb2017_ver3_v1 -o WWTree_SingleMuonRun2016H_03Feb2017_ver3_v1_mu -w 1. -no 1. --ismc 0 -trig 1 -c lpc
+Queue

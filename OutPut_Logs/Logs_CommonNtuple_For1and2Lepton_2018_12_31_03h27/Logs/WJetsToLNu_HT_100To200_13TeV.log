@@ -1,0 +1,103 @@
+000 (2781559.064.000) 12/31 03:40:41 Job submitted from host: <131.225.189.221:9618?addrs=131.225.189.221-9618&noUDP&sock=7970_9786_3>
+...
+001 (2781559.064.000) 12/31 03:41:00 Job executing on host: <131.225.207.66:55565?addrs=131.225.207.66-55565>
+...
+006 (2781559.064.000) 12/31 03:41:09 Image size of job updated: 112860
+	16  -  MemoryUsage of job (MB)
+	15912  -  ResidentSetSize of job (KB)
+...
+006 (2781559.064.000) 12/31 03:42:10 Image size of job updated: 849048
+	248  -  MemoryUsage of job (MB)
+	253740  -  ResidentSetSize of job (KB)
+...
+006 (2781559.064.000) 12/31 03:48:14 Image size of job updated: 849048
+	248  -  MemoryUsage of job (MB)
+	253768  -  ResidentSetSize of job (KB)
+...
+006 (2781559.064.000) 12/31 03:50:14 Image size of job updated: 849180
+	248  -  MemoryUsage of job (MB)
+	253832  -  ResidentSetSize of job (KB)
+...
+006 (2781559.064.000) 12/31 03:51:14 Image size of job updated: 849180
+	248  -  MemoryUsage of job (MB)
+	253876  -  ResidentSetSize of job (KB)
+...
+006 (2781559.064.000) 12/31 03:52:14 Image size of job updated: 849180
+	249  -  MemoryUsage of job (MB)
+	253984  -  ResidentSetSize of job (KB)
+...
+006 (2781559.064.000) 12/31 03:53:15 Image size of job updated: 849180
+	249  -  MemoryUsage of job (MB)
+	253992  -  ResidentSetSize of job (KB)
+...
+006 (2781559.064.000) 12/31 04:06:22 Image size of job updated: 858640
+	257  -  MemoryUsage of job (MB)
+	262352  -  ResidentSetSize of job (KB)
+...
+006 (2781559.064.000) 12/31 04:07:23 Image size of job updated: 884708
+	266  -  MemoryUsage of job (MB)
+	271456  -  ResidentSetSize of job (KB)
+...
+006 (2781559.064.000) 12/31 04:08:24 Image size of job updated: 884708
+	266  -  MemoryUsage of job (MB)
+	271836  -  ResidentSetSize of job (KB)
+...
+006 (2781559.064.000) 12/31 04:14:27 Image size of job updated: 884708
+	284  -  MemoryUsage of job (MB)
+	289856  -  ResidentSetSize of job (KB)
+...
+006 (2781559.064.000) 12/31 04:56:52 Image size of job updated: 884708
+	284  -  MemoryUsage of job (MB)
+	289876  -  ResidentSetSize of job (KB)
+...
+006 (2781559.064.000) 12/31 05:01:52 Image size of job updated: 884708
+	284  -  MemoryUsage of job (MB)
+	289884  -  ResidentSetSize of job (KB)
+...
+006 (2781559.064.000) 12/31 05:02:52 Image size of job updated: 884708
+	284  -  MemoryUsage of job (MB)
+	289888  -  ResidentSetSize of job (KB)
+...
+006 (2781559.064.000) 12/31 05:03:53 Image size of job updated: 884844
+	284  -  MemoryUsage of job (MB)
+	290076  -  ResidentSetSize of job (KB)
+...
+006 (2781559.064.000) 12/31 05:04:54 Image size of job updated: 884844
+	284  -  MemoryUsage of job (MB)
+	290084  -  ResidentSetSize of job (KB)
+...
+006 (2781559.064.000) 12/31 05:07:58 Image size of job updated: 884844
+	284  -  MemoryUsage of job (MB)
+	290088  -  ResidentSetSize of job (KB)
+...
+006 (2781559.064.000) 12/31 05:11:58 Image size of job updated: 884844
+	284  -  MemoryUsage of job (MB)
+	290092  -  ResidentSetSize of job (KB)
+...
+006 (2781559.064.000) 12/31 05:17:01 Image size of job updated: 884844
+	284  -  MemoryUsage of job (MB)
+	290096  -  ResidentSetSize of job (KB)
+...
+006 (2781559.064.000) 12/31 05:19:03 Image size of job updated: 884844
+	284  -  MemoryUsage of job (MB)
+	290100  -  ResidentSetSize of job (KB)
+...
+006 (2781559.064.000) 12/31 06:35:38 Image size of job updated: 884844
+	284  -  MemoryUsage of job (MB)
+	290104  -  ResidentSetSize of job (KB)
+...
+005 (2781559.064.000) 12/31 06:36:32 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:18:32, Sys 0 00:01:37  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:18:32, Sys 0 00:01:37  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	60280  -  Run Bytes Sent By Job
+	14407  -  Run Bytes Received By Job
+	60280  -  Total Bytes Sent By Job
+	14407  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :    31269        7   3532356
+	   Memory (MB)          :      284     2100      2100
+...

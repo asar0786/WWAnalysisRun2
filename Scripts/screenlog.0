@@ -1,0 +1,1243 @@
+------------------------------------------------------------------------------
+                     ..::[1mPowered by CMS-LPC[22m::..                      
+
+   Hostname: cmslpc26.fnal.gov           OS Release: SLF 6.10 (Ramsey)         
+         IP: 131.225.190.173                 Subnet: 255.255.252.0             
+
+     Kernel: 2.6.32-754.12.1                   Arch: x86_64                    
+        RAM: 31.34 GiB                         Swap: 32.00 GiB                 
+      Cores: 24                             Virtual: physical                  
+
+ SSH Logins: 27                            Load Avg: 1.62 1.22 1.12            
+------------------------------------------------------------------------------
+   For information about computing at the LPC go to: lpc.fnal.gov/computing   
+------------------------------------------------------------------------------
+The documentation for LPC refactor is available here:
+https://uscms.org/uscms_at_work/computing/setup/condor_refactor.shtml
+------------------------------------------------------------------------------
+_asahmed@cmslpc26:Scripts\[asahmed@cmslpc26 Scripts]$ cmsenv
+_asahmed@cmslpc26:Scripts\[asahmed@cmslpc26 Scripts]$ cmsenv[6Dexit[Kkill %[6Dpython makeTxtFileForPlotting.py[32Dvi aQGC_WPlepWPhadJJ_EWK_LO_NPle1_mjj100pt10_madspin_card.dat[61Dpython makeTxtFileForPlotting.py[K
+====================>  WJetsToLNu_HT_800To1200
+WWTree_WJetsToLNu_HT_800To1200_13TeV.root
+Info in <TCanvas::MakeDefCanvas>:  created default TCanvas with name c1
+WWTree_WJetsToLNu_HT_800To1200_13TeV.root 1544347.0 0.0
+WWTree_WJetsToLNu_HT_800To1200_13TeV_ext1.root
+WWTree_WJetsToLNu_HT_800To1200_13TeV_ext1.root 7688957.0 0.0
+====================>  ZTo2LZTo2JJJ_EWK_LO_SM
+WWTree_ZTo2LZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WWTree_ZTo2LZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root 99997.0 0.0
+====================>  WplusToLNuWminusTo2JJJ_EWK_LO_SM
+WWTree_WplusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WWTree_WplusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root 1991227.0 0.0
+====================>  WplusToLNuWminusTo2JJJ_QCD_LO_SM
+WWTree_WplusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WWTree_WplusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root 3949170.0 0.0
+====================>  ZZZ_13TeV_amcatnlo
+WWTree_ZZZ_13TeV_amcatnlo_pythia8.root
+WWTree_ZZZ_13TeV_amcatnlo_pythia8.root 249232.0 18020.0
+====================>  DYToLL_1J_13TeV
+====================>  TTbar_powheg
+====================>  WplusToLNuZTo2JJJ_QCD_LO_SM
+WWTree_WplusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WWTree_WplusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root 1991348.0 0.0
+====================>  WZTo1L1Nu2Q_13TeV
+WWTree_WZTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8_1.root
+WWTree_WZTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8_1.root 6317663.0 1323869.0
+WWTree_WZTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8_2.root
+WWTree_WZTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8_2.root 14156470.0 2969572.0
+WWTree_WZTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8_3.root
+WWTree_WZTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8_3.root 23766546.0 4986275.0
+====================>  TTZToLLNuNu_M-10
+WWTree_TTZToLLNuNu_M-10.root
+WWTree_TTZToLLNuNu_M-10.root 1992334.0 532202.0
+WWTree_TTZToLLNuNu_M-10_ext2.root
+WWTree_TTZToLLNuNu_M-10_ext2.root 7969186.0 2126557.0
+====================>  WJetsToLNu_HT_200To400
+WWTree_WJetsToLNu_HT_200To400_13TeV.root
+WWTree_WJetsToLNu_HT_200To400_13TeV.root 4226968.0 0.0
+WWTree_WJetsToLNu_HT_200To400_13TeV_ext1.root
+WWTree_WJetsToLNu_HT_200To400_13TeV_ext1.root 9197847.0 0.0
+WWTree_WJetsToLNu_HT_200To400_13TeV_ext2.root
+WWTree_WJetsToLNu_HT_200To400_13TeV_ext2.root 14085266.0 0.0
+WWTree_WJetsToLNu_HT_200To400_13TeV_ext2_1.root
+WWTree_WJetsToLNu_HT_200To400_13TeV_ext2_1.root 18971775.0 0.0
+WWTree_WJetsToLNu_HT_200To400_13TeV_ext2_2.root
+WWTree_WJetsToLNu_HT_200To400_13TeV_ext2_2.root 23873420.0 0.0
+WWTree_WJetsToLNu_HT_200To400_13TeV_ext2_3.root
+WWTree_WJetsToLNu_HT_200To400_13TeV_ext2_3.root 29087430.0 0.0
+====================>  WJetsToLNu_HT_2500ToInf
+WWTree_WJetsToLNu_HT_2500ToInf_13TeV.root
+WWTree_WJetsToLNu_HT_2500ToInf_13TeV.root 253344.0 0.0
+WWTree_WJetsToLNu_HT_2500ToInf_13TeV_ext1.root
+WWTree_WJetsToLNu_HT_2500ToInf_13TeV_ext1.root 2520618.0 0.0
+====================>  TTWJetsToLNu
+WWTree_TTWJetsToLNu_ext1.root
+WWTree_TTWJetsToLNu_ext1.root 2160030.0 523692.0
+WWTree_TTWJetsToLNu_ext2.root
+WWTree_TTWJetsToLNu_ext2.root 5280251.0 1282079.0
+====================>  QCD_HT1500to2000
+WWTree_QCD_HT1500to2000_13TeV.root
+WWTree_QCD_HT1500to2000_13TeV.root 3969722.0 0.0
+WWTree_QCD_HT1500to2000_13TeV_ext.root
+WWTree_QCD_HT1500to2000_13TeV_ext.root 11624720.0 0.0
+====================>  TTToSemilepton
+WWTree_TTToSemilepton_powheg_1.root
+WWTree_TTToSemilepton_powheg_1.root 14217782.0 0.0
+WWTree_TTToSemilepton_powheg_2.root
+WWTree_TTToSemilepton_powheg_2.root 29565618.0 0.0
+WWTree_TTToSemilepton_powheg_3.root
+WWTree_TTToSemilepton_powheg_3.root 45306001.0 0.0
+WWTree_TTToSemilepton_powheg_4.root
+WWTree_TTToSemilepton_powheg_4.root 60895197.0 0.0
+WWTree_TTToSemilepton_powheg_5.root
+WWTree_TTToSemilepton_powheg_5.root 77178663.0 0.0
+WWTree_TTToSemilepton_powheg_6.root
+WWTree_TTToSemilepton_powheg_6.root 91832423.0 0.0
+====================>  WplusToLNuWplusTo2JJJ_EWK_LO_aQGC
+WWTree_WplusToLNuWplusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WWTree_WplusToLNuWplusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root 199858.0 0.0
+====================>  WplusTo2JWminusToLNuJJ_QCD_LO_SM
+WWTree_WplusTo2JWminusToLNuJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WWTree_WplusTo2JWminusToLNuJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root 3994663.0 0.0
+====================>  QCD_HT500to700
+WWTree_QCD_HT500to700_13TeV.root
+WWTree_QCD_HT500to700_13TeV.root 10404435.0 0.0
+WWTree_QCD_HT500to700_13TeV_ext_1.root
+WWTree_QCD_HT500to700_13TeV_ext_1.root 26732670.0 0.0
+WWTree_QCD_HT500to700_13TeV_ext_2.root
+WWTree_QCD_HT500to700_13TeV_ext_2.root 42863566.0 0.0
+WWTree_QCD_HT500to700_13TeV_ext_3.root
+WWTree_QCD_HT500to700_13TeV_ext_3.root 53744436.0 0.0
+====================>  QCD_HT100to200
+WWTree_QCD_HT100to200_13TeV_1.root
+WWTree_QCD_HT100to200_13TeV_1.root 0.0 0.0
+WWTree_QCD_HT100to200_13TeV_2.root
+WWTree_QCD_HT100to200_13TeV_2.root 0.0 0.0
+WWTree_QCD_HT100to200_13TeV_3.root
+WWTree_QCD_HT100to200_13TeV_3.root 0.0 0.0
+WWTree_QCD_HT100to200_13TeV_4.root
+WWTree_QCD_HT100to200_13TeV_4.root 0.0 0.0
+WWTree_QCD_HT100to200_13TeV_5.root
+WWTree_QCD_HT100to200_13TeV_5.root 0.0 0.0
+WWTree_QCD_HT100to200_13TeV_6.root
+WWTree_QCD_HT100to200_13TeV_6.root 0.0 0.0
+====================>  WplusToLNuWminusTo2JJJ_EWK_LO_aQGC
+WWTree_WplusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WWTree_WplusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root 1640169.0 0.0
+====================>  DY4JetsToLL
+WWTree_DY4JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.root
+WWTree_DY4JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.root 2798791.0 0.0
+====================>  ZZTo2L2Q_13TeV
+WWTree_ZZTo2L2Q_13TeV_amcatnloFXFX_madspin_pythia8.root
+WWTree_ZZTo2L2Q_13TeV_amcatnloFXFX_madspin_pythia8.root 15345161.0 2828391.0
+====================>  WplusToLNuZTo2JJJ_EWK_LO_aQGC
+WWTree_WplusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WWTree_WplusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root 349000.0 0.0
+====================>  SingleElectron
+WWTree_SingleElectronRun2016F_03Feb2017_v1_el.root
+WWTree_SingleElectronRun2016F_03Feb2017_v1_el.root 1 0
+WWTree_SingleElectronRun2016H_03Feb2017_ver2_v1_1_el.root
+WWTree_SingleElectronRun2016H_03Feb2017_ver2_v1_1_el.root 1 0
+WWTree_SingleElectronRun2016H_03Feb2017_ver2_v1_2_el.root
+WWTree_SingleElectronRun2016H_03Feb2017_ver2_v1_2_el.root 1 0
+WWTree_SingleElectronRun2016H_03Feb2017_ver3_v1_el.root
+WWTree_SingleElectronRun2016H_03Feb2017_ver3_v1_el.root 1 0
+WWTree_SingleElectron_Run2016B-03Feb2017_ver1-v1_el.root
+WWTree_SingleElectron_Run2016B-03Feb2017_ver1-v1_el.root 1 0
+WWTree_SingleElectron_Run2016B-03Feb2017_ver2-v2_1_el.root
+WWTree_SingleElectron_Run2016B-03Feb2017_ver2-v2_1_el.root 1 0
+WWTree_SingleElectron_Run2016B-03Feb2017_ver2-v2_2_el.root
+WWTree_SingleElectron_Run2016B-03Feb2017_ver2-v2_2_el.root 1 0
+WWTree_SingleElectron_Run2016B-03Feb2017_ver2-v2_3_el.root
+WWTree_SingleElectron_Run2016B-03Feb2017_ver2-v2_3_el.root 1 0
+WWTree_SingleElectron_Run2016B-03Feb2017_ver2-v2_4_el.root
+WWTree_SingleElectron_Run2016B-03Feb2017_ver2-v2_4_el.root 1 0
+WWTree_SingleElectron_Run2016B-03Feb2017_ver2-v2_5_el.root
+WWTree_SingleElectron_Run2016B-03Feb2017_ver2-v2_5_el.root 1 0
+WWTree_SingleElectron_Run2016C-03Feb2017-v1_el.root
+WWTree_SingleElectron_Run2016C-03Feb2017-v1_el.root 1 0
+WWTree_SingleElectron_Run2016D-03Feb2017-v1_1_el.root
+WWTree_SingleElectron_Run2016D-03Feb2017-v1_1_el.root 1 0
+WWTree_SingleElectron_Run2016D-03Feb2017-v1_2_el.root
+WWTree_SingleElectron_Run2016D-03Feb2017-v1_2_el.root 1 0
+WWTree_SingleElectron_Run2016D-03Feb2017-v1_3_el.root
+WWTree_SingleElectron_Run2016D-03Feb2017-v1_3_el.root 1 0
+WWTree_SingleElectron_Run2016E-03Feb2017-v1_1_el.root
+WWTree_SingleElectron_Run2016E-03Feb2017-v1_1_el.root 1 0
+WWTree_SingleElectron_Run2016E-03Feb2017-v1_2_el.root
+WWTree_SingleElectron_Run2016E-03Feb2017-v1_2_el.root 1 0
+WWTree_SingleElectron_Run2016G-03Feb2017-v1_1_el.root
+WWTree_SingleElectron_Run2016G-03Feb2017-v1_1_el.root 1 0
+WWTree_SingleElectron_Run2016G-03Feb2017-v1_2_el.root
+WWTree_SingleElectron_Run2016G-03Feb2017-v1_2_el.root 1 0
+WWTree_SingleElectron_Run2016G-03Feb2017-v1_3_el.root
+WWTree_SingleElectron_Run2016G-03Feb2017-v1_3_el.root 1 0
+====================>  DYJetsToLL_M-50
+====================>  WminusToLNuWminusTo2JJJ_QCD_LO_SM
+WWTree_WminusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WWTree_WminusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root 99657.0 0.0
+====================>  ST_s_channel
+WWTree_Summer16_ST_s_channel_4f_leptonDecays.root
+WWTree_Summer16_ST_s_channel_4f_leptonDecays.root 999976.0 188501.0
+====================>  WplusTo2JZTo2LJJ_EWK_LO_aQGC
+WWTree_WplusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WWTree_WplusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root 149363.0 0.0
+====================>  WplusTo2JWminusToLNuJJ_EWK_LO_aQGC
+WWTree_WplusTo2JWminusToLNuJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WWTree_WplusTo2JWminusToLNuJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root 1706220.0 0.0
+====================>  WJetsToLNu_HT_600To800
+WWTree_WJetsToLNu_HT_600To800_13TeV.root
+WWTree_WJetsToLNu_HT_600To800_13TeV.root 3700689.0 0.0
+WWTree_WJetsToLNu_HT_600To800_13TeV_ext1_1.root
+WWTree_WJetsToLNu_HT_600To800_13TeV_ext1_1.root 10746898.0 0.0
+WWTree_WJetsToLNu_HT_600To800_13TeV_ext1_2.root
+WWTree_WJetsToLNu_HT_600To800_13TeV_ext1_2.root 18578604.0 0.0
+====================>  WZTo2L2Q
+WWTree_WZTo2L2Q_13TeV_amcatnloFXFX_madspin_pythia8.root
+TFile::Init:0: RuntimeWarning: file /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WZTo2L2Q_13TeV_amcatnloFXFX_madspin_pythia8.root has no keys
+====================>  ST_tW_top_5f_NoFullyHadronicDecays
+WWTree_ST_tW_top_5f_NoFullyHadronicDecays_13TeV_powheg_TuneCUETP8M1.root
+WWTree_ST_tW_top_5f_NoFullyHadronicDecays_13TeV_powheg_TuneCUETP8M1.root 5372830.0 0.0
+====================>  Data
+====================>  DYJetsToLL_amcatnlo_ext1
+====================>  QCD_HT700to1000
+WWTree_QCD_HT700to1000_13TeV.root
+WWTree_QCD_HT700to1000_13TeV.root 15578398.0 0.0
+WWTree_QCD_HT700to1000_13TeV_ext.root
+====================>  WminusToLNuWminusTo2JJJ_EWK_LO_SM
+WWTree_WminusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WWTree_WminusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root 189560.0 0.0
+====================>  DYToLL_0J_13TeV
+====================>  WplusTo2JWminusToLNuJJ_EWK_LO_SM
+WWTree_WplusTo2JWminusToLNuJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WWTree_WplusTo2JWminusToLNuJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root 1983847.0 0.0
+====================>  QCD_HT1000to1500
+WWTree_QCD_HT1000to1500_13TeV.root
+WWTree_QCD_HT1000to1500_13TeV.root 4766444.0 0.0
+WWTree_QCD_HT1000to1500_13TeV_ext.root
+WWTree_QCD_HT1000to1500_13TeV_ext.root 13080692.0 0.0
+====================>  WJetsToLNu_HT_100To200
+WWTree_WJetsToLNu_HT_100To200_13TeV.root
+WWTree_WJetsToLNu_HT_100To200_13TeV.root 10115048.0 0.0
+WWTree_WJetsToLNu_HT_100To200_13TeV_ext1_1.root
+WWTree_WJetsToLNu_HT_100To200_13TeV_ext1_1.root 15042344.0 0.0
+WWTree_WJetsToLNu_HT_100To200_13TeV_ext1_2.root
+WWTree_WJetsToLNu_HT_100To200_13TeV_ext1_2.root 19971794.0 0.0
+WWTree_WJetsToLNu_HT_100To200_13TeV_ext1_3.root
+WWTree_WJetsToLNu_HT_100To200_13TeV_ext1_3.root 24902897.0 0.0
+WWTree_WJetsToLNu_HT_100To200_13TeV_ext1_4.root
+WWTree_WJetsToLNu_HT_100To200_13TeV_ext1_4.root 29754957.0 0.0
+WWTree_WJetsToLNu_HT_100To200_13TeV_ext1_5.root
+WWTree_WJetsToLNu_HT_100To200_13TeV_ext1_5.root 34685122.0 0.0
+WWTree_WJetsToLNu_HT_100To200_13TeV_ext1_6.root
+WWTree_WJetsToLNu_HT_100To200_13TeV_ext1_6.root 39618199.0 0.0
+WWTree_WJetsToLNu_HT_100To200_13TeV_ext2_1.root
+WWTree_WJetsToLNu_HT_100To200_13TeV_ext2_1.root 44575500.0 0.0
+WWTree_WJetsToLNu_HT_100To200_13TeV_ext2_2.root
+WWTree_WJetsToLNu_HT_100To200_13TeV_ext2_2.root 49544417.0 0.0
+WWTree_WJetsToLNu_HT_100To200_13TeV_ext2_3.root
+WWTree_WJetsToLNu_HT_100To200_13TeV_ext2_3.root 54510676.0 0.0
+WWTree_WJetsToLNu_HT_100To200_13TeV_ext2_4.root
+WWTree_WJetsToLNu_HT_100To200_13TeV_ext2_4.root 59470872.0 0.0
+WWTree_WJetsToLNu_HT_100To200_13TeV_ext2_5.root
+WWTree_WJetsToLNu_HT_100To200_13TeV_ext2_5.root 64266759.0 0.0
+WWTree_WJetsToLNu_HT_100To200_13TeV_ext2_6.root
+WWTree_WJetsToLNu_HT_100To200_13TeV_ext2_6.root 69226855.0 0.0
+WWTree_WJetsToLNu_HT_100To200_13TeV_ext2_7.root
+WWTree_WJetsToLNu_HT_100To200_13TeV_ext2_7.root 74195542.0 0.0
+WWTree_WJetsToLNu_HT_100To200_13TeV_ext2_8.root
+WWTree_WJetsToLNu_HT_100To200_13TeV_ext2_8.root 79165703.0 0.0
+====================>  ST_t_channel_top_4f
+WWTree_Summer16_ST_t_channel_top_4f_inclusiveDecays_TuneCUETP8M2T4.root
+WWTree_Summer16_ST_t_channel_top_4f_inclusiveDecays_TuneCUETP8M2T4.root 5993570.0 0.0
+====================>  TTbar_amcatnlo
+====================>  WplusToLNuWplusTo2JJJ_QCD_LO_SM
+WWTree_WplusToLNuWplusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WWTree_WplusToLNuWplusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root 99992.0 0.0
+====================>  TTZToQQ
+WWTree_TTZToQQ.root
+WWTree_TTZToQQ.root 749367.0 199113.0
+====================>  WminusTo2JZTo2LJJ_EWK_LO_aQGC
+WWTree_WminusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WWTree_WminusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root 168679.0 0.0
+====================>  SingleMuon
+WWTree_SingleMuonRun2016B_03Feb2017_ver1_v1_mu.root
+WWTree_SingleMuonRun2016B_03Feb2017_ver1_v1_mu.root 1 0
+WWTree_SingleMuonRun2016B_03Feb2017_ver2_v2_1_mu.root
+WWTree_SingleMuonRun2016B_03Feb2017_ver2_v2_1_mu.root 1 0
+WWTree_SingleMuonRun2016B_03Feb2017_ver2_v2_2_mu.root
+WWTree_SingleMuonRun2016B_03Feb2017_ver2_v2_2_mu.root 1 0
+WWTree_SingleMuonRun2016B_03Feb2017_ver2_v2_3_mu.root
+WWTree_SingleMuonRun2016B_03Feb2017_ver2_v2_3_mu.root 1 0
+WWTree_SingleMuonRun2016C_03Feb2017_v1_mu.root
+WWTree_SingleMuonRun2016C_03Feb2017_v1_mu.root 1 0
+WWTree_SingleMuonRun2016D_03Feb2017_v1_1_mu.root
+WWTree_SingleMuonRun2016D_03Feb2017_v1_1_mu.root 1 0
+WWTree_SingleMuonRun2016D_03Feb2017_v1_2_mu.root
+WWTree_SingleMuonRun2016D_03Feb2017_v1_2_mu.root 1 0
+WWTree_SingleMuonRun2016E_03Feb2017_v1_1_mu.root
+WWTree_SingleMuonRun2016E_03Feb2017_v1_1_mu.root 1 0
+WWTree_SingleMuonRun2016E_03Feb2017_v1_2_mu.root
+WWTree_SingleMuonRun2016E_03Feb2017_v1_2_mu.root 1 0
+WWTree_SingleMuonRun2016F_03Feb2017_v1_1_mu.root
+WWTree_SingleMuonRun2016F_03Feb2017_v1_1_mu.root 1 0
+WWTree_SingleMuonRun2016F_03Feb2017_v1_2_mu.root
+WWTree_SingleMuonRun2016F_03Feb2017_v1_2_mu.root 1 0
+WWTree_SingleMuonRun2016G_03Feb2017_v1_1_mu.root
+WWTree_SingleMuonRun2016G_03Feb2017_v1_1_mu.root 1 0
+WWTree_SingleMuonRun2016G_03Feb2017_v1_2_mu.root
+WWTree_SingleMuonRun2016G_03Feb2017_v1_2_mu.root 1 0
+WWTree_SingleMuonRun2016G_03Feb2017_v1_3_mu.root
+WWTree_SingleMuonRun2016G_03Feb2017_v1_3_mu.root 1 0
+WWTree_SingleMuonRun2016H_03Feb2017_ver2_v1_1_mu.root
+WWTree_SingleMuonRun2016H_03Feb2017_ver2_v1_1_mu.root 1 0
+WWTree_SingleMuonRun2016H_03Feb2017_ver2_v1_2_mu.root
+WWTree_SingleMuonRun2016H_03Feb2017_ver2_v1_2_mu.root 1 0
+WWTree_SingleMuonRun2016H_03Feb2017_ver2_v1_3_mu.root
+WWTree_SingleMuonRun2016H_03Feb2017_ver2_v1_3_mu.root 1 0
+WWTree_SingleMuonRun2016H_03Feb2017_ver3_v1_mu.root
+WWTree_SingleMuonRun2016H_03Feb2017_ver3_v1_mu.root 1 0
+====================>  WplusToLNuZTo2JJJ_EWK_LO_SM
+WWTree_WplusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WWTree_WplusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root 393171.0 0.0
+====================>  ZTo2LZTo2JJJ_QCD_LO_SM
+WWTree_ZTo2LZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WWTree_ZTo2LZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root 49999.0 0.0
+====================>  QCD_HT200to300
+WWTree_QCD_HT200to300_13TeV.root
+WWTree_QCD_HT200to300_13TeV.root 0.0 0.0
+WWTree_QCD_HT200to300_13TeV_ext_1.root
+WWTree_QCD_HT200to300_13TeV_ext_1.root 0.0 0.0
+WWTree_QCD_HT200to300_13TeV_ext_2.root
+WWTree_QCD_HT200to300_13TeV_ext_2.root 0.0 0.0
+====================>  ST_tW_antitop_5f_NoFullyHadronicDecays
+WWTree_ST_tW_antitop_5f_NoFullyHadronicDecays_13TeV_powheg_TuneCUETP8M1.root
+WWTree_ST_tW_antitop_5f_NoFullyHadronicDecays_13TeV_powheg_TuneCUETP8M1.root 5424956.0 0.0
+====================>  QCD_HT300to500
+WWTree_QCD_HT300to500_13TeV.root
+WWTree_QCD_HT300to500_13TeV.root 17005515.0 0.0
+WWTree_QCD_HT300to500_13TeV_ext.root
+WWTree_QCD_HT300to500_13TeV_ext.root 17005515.0 0.0
+====================>  WminusToLNuZTo2JJJ_EWK_LO_aQGC
+WWTree_WminusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WWTree_WminusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root 160194.0 0.0
+====================>  WminusTo2JZTo2LJJ_QCD_LO_SM
+WWTree_WminusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WWTree_WminusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root 489280.0 0.0
+====================>  WJetsToLNu_HT_400To600
+WWTree_WJetsToLNu_HT_400To600_13TeV.root
+WWTree_WJetsToLNu_HT_400To600_13TeV.root 1963353.0 0.0
+WWTree_WJetsToLNu_HT_400To600_13TeV_ext1.root
+WWTree_WJetsToLNu_HT_400To600_13TeV_ext1.root 7754252.0 0.0
+====================>  WminusToLNuZTo2JJJ_EWK_LO_SM
+WWTree_WminusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WWTree_WminusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root 199542.0 0.0
+====================>  ZZ_13TeV_pythia8
+WWTree_ZZ_13TeV_pythia8.root
+WWTree_ZZ_13TeV_pythia8.root 990051.0 0.0
+====================>  DY2JetsToLL
+WWTree_DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1.root
+WWTree_DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1.root 3685677.0 0.0
+WWTree_DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2.root
+WWTree_DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2.root 6766427.0 0.0
+WWTree_DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_3.root
+WWTree_DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_3.root 10151197.0 0.0
+WWTree_DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_4.root
+WWTree_DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_4.root 13974517.0 0.0
+WWTree_DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_5.root
+WWTree_DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_5.root 19296117.0 0.0
+====================>  WminusToLNuWminusTo2JJJ_EWK_LO_aQGC
+WWTree_WminusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WWTree_WminusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root 190106.0 0.0
+====================>  WplusTo2JZTo2LJJ_EWK_LO_SM
+WWTree_WplusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WWTree_WplusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root 198922.0 0.0
+====================>  WJetsToLNu_HT_1200To2500
+WWTree_WJetsToLNu_HT_1200To2500_13TeV.root
+WWTree_WJetsToLNu_HT_1200To2500_13TeV.root 154700.0 0.0
+WWTree_WJetsToLNu_HT_1200To2500_13TeV_ext1.root
+WWTree_WJetsToLNu_HT_1200To2500_13TeV_ext1.root 6708656.0 0.0
+====================>  DY1JetsToLL
+WWTree_DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1.root
+WWTree_DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1.root 4036013.0 0.0
+WWTree_DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2.root
+WWTree_DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2.root 10194028.0 0.0
+WWTree_DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_3.root
+WWTree_DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_3.root 15713294.0 0.0
+WWTree_DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_4.root
+WWTree_DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_4.root 21827582.0 0.0
+WWTree_DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_5.root
+WWTree_DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_5.root 27984814.0 0.0
+WWTree_DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_6.root
+WWTree_DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_6.root 34811789.0 0.0
+WWTree_DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_7.root
+WWTree_DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_7.root 34811789.0 0.0
+WWTree_DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_8.root
+WWTree_DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_8.root 40384392.0 0.0
+WWTree_DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_9.root
+WWTree_DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_9.root 46443016.0 0.0
+====================>  WWTo1L1Nu2Q_13TeV
+WWTree_WWTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8.root
+WWTree_WWTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8.root 5057358.0 953706.0
+====================>  WplusTo2JZTo2LJJ_QCD_LO_SM
+WWTree_WplusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WWTree_WplusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root 499432.0 0.0
+====================>  DY3JetsToLL
+WWTree_DY3JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1.root
+WWTree_DY3JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1.root 1640580.0 0.0
+WWTree_DY3JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2.root
+WWTree_DY3JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2.root 4866978.0 0.0
+====================>  ST_t_channel_antitop
+WWTree_Summer16_ST_t_channel_antitop_4f_inclusiveDecays_TuneCUETP8M2T4.root
+WWTree_Summer16_ST_t_channel_antitop_4f_inclusiveDecays_TuneCUETP8M2T4.root 3927980.0 0.0
+====================>  WWZ_13TeV_amcatnlo
+WWTree_WWZ_13TeV_amcatnlo_pythia8.root
+WWTree_WWZ_13TeV_amcatnlo_pythia8.root 269990.0 15372.0
+====================>  WplusToLNuWplusTo2JJJ_EWK_LO_SM
+WWTree_WplusToLNuWplusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WWTree_WplusToLNuWplusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root 198848.0 0.0
+====================>  QCD_HT2000toInf
+WWTree_QCD_HT2000toInf_13TeV.root
+WWTree_QCD_HT2000toInf_13TeV.root 1950601.0 0.0
+WWTree_QCD_HT2000toInf_13TeV_ext.root
+WWTree_QCD_HT2000toInf_13TeV_ext.root 5875869.0 0.0
+====================>  ZTo2LZTo2JJJ_EWK_LO_aQGC
+WWTree_ZTo2LZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WWTree_ZTo2LZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root 99392.0 0.0
+====================>  WminusToLNuZTo2JJJ_QCD_LO_SM
+WWTree_WminusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WWTree_WminusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root 981540.0 0.0
+====================>  DYToLL_2J_13TeV
+====================>  WminusTo2JZTo2LJJ_EWK_LO_SM
+WWTree_WminusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WWTree_WminusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root 189086.0 0.0
+====================>  TTWJetsToQQ
+WWTree_TTWJetsToQQ.root
+WWTree_TTWJetsToQQ.root 833257.0 201483.0
+[['WJetsToLNu_HT_800To1200.root',
+  'WWTree_WJetsToLNu_HT_800To1200_13TeV.root',
+  'WWTree_WJetsToLNu_HT_800To1200_13TeV_ext1.root'],
+ ['ZTo2LZTo2JJJ_EWK_LO_SM.root',
+  'WWTree_ZTo2LZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root'],
+ ['WplusToLNuWminusTo2JJJ_EWK_LO_SM.root',
+  'WWTree_WplusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root'],
+ ['WplusToLNuWminusTo2JJJ_QCD_LO_SM.root',
+  'WWTree_WplusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root'],
+ ['ZZZ_13TeV_amcatnlo.root', 'WWTree_ZZZ_13TeV_amcatnlo_pythia8.root'],
+ ['WplusToLNuZTo2JJJ_QCD_LO_SM.root',
+  'WWTree_WplusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root'],
+ ['WZTo1L1Nu2Q_13TeV.root',
+  'WWTree_WZTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8_1.root',
+  'WWTree_WZTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8_2.root',
+  'WWTree_WZTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8_3.root'],
+ ['TTZToLLNuNu_M-10.root',
+  'WWTree_TTZToLLNuNu_M-10.root',
+  'WWTree_TTZToLLNuNu_M-10_ext2.root'],
+ ['WJetsToLNu_HT_200To400.root',
+  'WWTree_WJetsToLNu_HT_200To400_13TeV.root',
+  'WWTree_WJetsToLNu_HT_200To400_13TeV_ext1.root',
+  'WWTree_WJetsToLNu_HT_200To400_13TeV_ext2.root',
+  'WWTree_WJetsToLNu_HT_200To400_13TeV_ext2_1.root',
+  'WWTree_WJetsToLNu_HT_200To400_13TeV_ext2_2.root',
+  'WWTree_WJetsToLNu_HT_200To400_13TeV_ext2_3.root'],
+ ['WJetsToLNu_HT_2500ToInf.root',
+  'WWTree_WJetsToLNu_HT_2500ToInf_13TeV.root',
+  'WWTree_WJetsToLNu_HT_2500ToInf_13TeV_ext1.root'],
+ ['TTWJetsToLNu.root',
+  'WWTree_TTWJetsToLNu_ext1.root',
+  'WWTree_TTWJetsToLNu_ext2.root'],
+ ['QCD_HT1500to2000.root',
+  'WWTree_QCD_HT1500to2000_13TeV.root',
+  'WWTree_QCD_HT1500to2000_13TeV_ext.root'],
+ ['TTToSemilepton.root',
+  'WWTree_TTToSemilepton_powheg_1.root',
+  'WWTree_TTToSemilepton_powheg_2.root',
+  'WWTree_TTToSemilepton_powheg_3.root',
+  'WWTree_TTToSemilepton_powheg_4.root',
+  'WWTree_TTToSemilepton_powheg_5.root',
+  'WWTree_TTToSemilepton_powheg_6.root'],
+ ['WplusToLNuWplusTo2JJJ_EWK_LO_aQGC.root',
+  'WWTree_WplusToLNuWplusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root'],
+ ['WplusTo2JWminusToLNuJJ_QCD_LO_SM.root',
+  'WWTree_WplusTo2JWminusToLNuJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root'],
+ ['QCD_HT500to700.root',
+  'WWTree_QCD_HT500to700_13TeV.root',
+  'WWTree_QCD_HT500to700_13TeV_ext_1.root',
+  'WWTree_QCD_HT500to700_13TeV_ext_2.root',
+  'WWTree_QCD_HT500to700_13TeV_ext_3.root'],
+ ['QCD_HT100to200.root',
+  'WWTree_QCD_HT100to200_13TeV_1.root',
+  'WWTree_QCD_HT100to200_13TeV_2.root',
+  'WWTree_QCD_HT100to200_13TeV_3.root',
+  'WWTree_QCD_HT100to200_13TeV_4.root',
+  'WWTree_QCD_HT100to200_13TeV_5.root',
+  'WWTree_QCD_HT100to200_13TeV_6.root'],
+ ['WplusToLNuWminusTo2JJJ_EWK_LO_aQGC.root',
+  'WWTree_WplusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root'],
+ ['DY4JetsToLL.root',
+  'WWTree_DY4JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.root'],
+ ['ZZTo2L2Q_13TeV.root',
+  'WWTree_ZZTo2L2Q_13TeV_amcatnloFXFX_madspin_pythia8.root'],
+ ['WplusToLNuZTo2JJJ_EWK_LO_aQGC.root',
+  'WWTree_WplusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root'],
+ ['SingleElectron.root',
+  'WWTree_SingleElectronRun2016F_03Feb2017_v1_el.root',
+  'WWTree_SingleElectronRun2016H_03Feb2017_ver2_v1_1_el.root',
+  'WWTree_SingleElectronRun2016H_03Feb2017_ver2_v1_2_el.root',
+  'WWTree_SingleElectronRun2016H_03Feb2017_ver3_v1_el.root',
+  'WWTree_SingleElectron_Run2016B-03Feb2017_ver1-v1_el.root',
+  'WWTree_SingleElectron_Run2016B-03Feb2017_ver2-v2_1_el.root',
+  'WWTree_SingleElectron_Run2016B-03Feb2017_ver2-v2_2_el.root',
+  'WWTree_SingleElectron_Run2016B-03Feb2017_ver2-v2_3_el.root',
+  'WWTree_SingleElectron_Run2016B-03Feb2017_ver2-v2_4_el.root',
+  'WWTree_SingleElectron_Run2016B-03Feb2017_ver2-v2_5_el.root',
+  'WWTree_SingleElectron_Run2016C-03Feb2017-v1_el.root',
+  'WWTree_SingleElectron_Run2016D-03Feb2017-v1_1_el.root',
+  'WWTree_SingleElectron_Run2016D-03Feb2017-v1_2_el.root',
+  'WWTree_SingleElectron_Run2016D-03Feb2017-v1_3_el.root',
+  'WWTree_SingleElectron_Run2016E-03Feb2017-v1_1_el.root',
+  'WWTree_SingleElectron_Run2016E-03Feb2017-v1_2_el.root',
+  'WWTree_SingleElectron_Run2016G-03Feb2017-v1_1_el.root',
+  'WWTree_SingleElectron_Run2016G-03Feb2017-v1_2_el.root',
+  'WWTree_SingleElectron_Run2016G-03Feb2017-v1_3_el.root'],
+ ['WminusToLNuWminusTo2JJJ_QCD_LO_SM.root',
+  'WWTree_WminusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root'],
+ ['ST_s_channel.root', 'WWTree_Summer16_ST_s_channel_4f_leptonDecays.root'],
+ ['WplusTo2JZTo2LJJ_EWK_LO_aQGC.root',
+  'WWTree_WplusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root'],
+ ['WplusTo2JWminusToLNuJJ_EWK_LO_aQGC.root',
+  'WWTree_WplusTo2JWminusToLNuJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root'],
+ ['WJetsToLNu_HT_600To800.root',
+  'WWTree_WJetsToLNu_HT_600To800_13TeV.root',
+  'WWTree_WJetsToLNu_HT_600To800_13TeV_ext1_1.root',
+  'WWTree_WJetsToLNu_HT_600To800_13TeV_ext1_2.root'],
+ ['ST_tW_top_5f_NoFullyHadronicDecays.root',
+  'WWTree_ST_tW_top_5f_NoFullyHadronicDecays_13TeV_powheg_TuneCUETP8M1.root'],
+ ['QCD_HT700to1000.root', 'WWTree_QCD_HT700to1000_13TeV.root'],
+ ['WminusToLNuWminusTo2JJJ_EWK_LO_SM.root',
+  'WWTree_WminusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root'],
+ ['WplusTo2JWminusToLNuJJ_EWK_LO_SM.root',
+  'WWTree_WplusTo2JWminusToLNuJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root'],
+ ['QCD_HT1000to1500.root',
+  'WWTree_QCD_HT1000to1500_13TeV.root',
+  'WWTree_QCD_HT1000to1500_13TeV_ext.root'],
+ ['WJetsToLNu_HT_100To200.root',
+  'WWTree_WJetsToLNu_HT_100To200_13TeV.root',
+  'WWTree_WJetsToLNu_HT_100To200_13TeV_ext1_1.root',
+  'WWTree_WJetsToLNu_HT_100To200_13TeV_ext1_2.root',
+  'WWTree_WJetsToLNu_HT_100To200_13TeV_ext1_3.root',
+  'WWTree_WJetsToLNu_HT_100To200_13TeV_ext1_4.root',
+  'WWTree_WJetsToLNu_HT_100To200_13TeV_ext1_5.root',
+  'WWTree_WJetsToLNu_HT_100To200_13TeV_ext1_6.root',
+  'WWTree_WJetsToLNu_HT_100To200_13TeV_ext2_1.root',
+  'WWTree_WJetsToLNu_HT_100To200_13TeV_ext2_2.root',
+  'WWTree_WJetsToLNu_HT_100To200_13TeV_ext2_3.root',
+  'WWTree_WJetsToLNu_HT_100To200_13TeV_ext2_4.root',
+  'WWTree_WJetsToLNu_HT_100To200_13TeV_ext2_5.root',
+  'WWTree_WJetsToLNu_HT_100To200_13TeV_ext2_6.root',
+  'WWTree_WJetsToLNu_HT_100To200_13TeV_ext2_7.root',
+  'WWTree_WJetsToLNu_HT_100To200_13TeV_ext2_8.root'],
+ ['ST_t_channel_top_4f.root',
+  'WWTree_Summer16_ST_t_channel_top_4f_inclusiveDecays_TuneCUETP8M2T4.root'],
+ ['WplusToLNuWplusTo2JJJ_QCD_LO_SM.root',
+  'WWTree_WplusToLNuWplusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root'],
+ ['TTZToQQ.root', 'WWTree_TTZToQQ.root'],
+ ['WminusTo2JZTo2LJJ_EWK_LO_aQGC.root',
+  'WWTree_WminusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root'],
+ ['SingleMuon.root',
+  'WWTree_SingleMuonRun2016B_03Feb2017_ver1_v1_mu.root',
+  'WWTree_SingleMuonRun2016B_03Feb2017_ver2_v2_1_mu.root',
+  'WWTree_SingleMuonRun2016B_03Feb2017_ver2_v2_2_mu.root',
+  'WWTree_SingleMuonRun2016B_03Feb2017_ver2_v2_3_mu.root',
+  'WWTree_SingleMuonRun2016C_03Feb2017_v1_mu.root',
+  'WWTree_SingleMuonRun2016D_03Feb2017_v1_1_mu.root',
+  'WWTree_SingleMuonRun2016D_03Feb2017_v1_2_mu.root',
+  'WWTree_SingleMuonRun2016E_03Feb2017_v1_1_mu.root',
+  'WWTree_SingleMuonRun2016E_03Feb2017_v1_2_mu.root',
+  'WWTree_SingleMuonRun2016F_03Feb2017_v1_1_mu.root',
+  'WWTree_SingleMuonRun2016F_03Feb2017_v1_2_mu.root',
+  'WWTree_SingleMuonRun2016G_03Feb2017_v1_1_mu.root',
+  'WWTree_SingleMuonRun2016G_03Feb2017_v1_2_mu.root',
+  'WWTree_SingleMuonRun2016G_03Feb2017_v1_3_mu.root',
+  'WWTree_SingleMuonRun2016H_03Feb2017_ver2_v1_1_mu.root',
+  'WWTree_SingleMuonRun2016H_03Feb2017_ver2_v1_2_mu.root',
+  'WWTree_SingleMuonRun2016H_03Feb2017_ver2_v1_3_mu.root',
+  'WWTree_SingleMuonRun2016H_03Feb2017_ver3_v1_mu.root'],
+ ['WplusToLNuZTo2JJJ_EWK_LO_SM.root',
+  'WWTree_WplusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root'],
+ ['ZTo2LZTo2JJJ_QCD_LO_SM.root',
+  'WWTree_ZTo2LZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root'],
+ ['QCD_HT200to300.root',
+  'WWTree_QCD_HT200to300_13TeV.root',
+  'WWTree_QCD_HT200to300_13TeV_ext_1.root',
+  'WWTree_QCD_HT200to300_13TeV_ext_2.root'],
+ ['ST_tW_antitop_5f_NoFullyHadronicDecays.root',
+  'WWTree_ST_tW_antitop_5f_NoFullyHadronicDecays_13TeV_powheg_TuneCUETP8M1.root'],
+ ['QCD_HT300to500.root',
+  'WWTree_QCD_HT300to500_13TeV.root',
+  'WWTree_QCD_HT300to500_13TeV_ext.root'],
+ ['WminusToLNuZTo2JJJ_EWK_LO_aQGC.root',
+  'WWTree_WminusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root'],
+ ['WminusTo2JZTo2LJJ_QCD_LO_SM.root',
+  'WWTree_WminusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root'],
+ ['WJetsToLNu_HT_400To600.root',
+  'WWTree_WJetsToLNu_HT_400To600_13TeV.root',
+  'WWTree_WJetsToLNu_HT_400To600_13TeV_ext1.root'],
+ ['WminusToLNuZTo2JJJ_EWK_LO_SM.root',
+  'WWTree_WminusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root'],
+ ['ZZ_13TeV_pythia8.root', 'WWTree_ZZ_13TeV_pythia8.root'],
+ ['DY2JetsToLL.root',
+  'WWTree_DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1.root',
+  'WWTree_DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2.root',
+  'WWTree_DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_3.root',
+  'WWTree_DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_4.root',
+  'WWTree_DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_5.root'],
+ ['WminusToLNuWminusTo2JJJ_EWK_LO_aQGC.root',
+  'WWTree_WminusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root'],
+ ['WplusTo2JZTo2LJJ_EWK_LO_SM.root',
+  'WWTree_WplusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root'],
+ ['WJetsToLNu_HT_1200To2500.root',
+  'WWTree_WJetsToLNu_HT_1200To2500_13TeV.root',
+  'WWTree_WJetsToLNu_HT_1200To2500_13TeV_ext1.root'],
+ ['DY1JetsToLL.root',
+  'WWTree_DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1.root',
+  'WWTree_DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2.root',
+  'WWTree_DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_3.root',
+  'WWTree_DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_4.root',
+  'WWTree_DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_5.root',
+  'WWTree_DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_6.root',
+  'WWTree_DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_7.root',
+  'WWTree_DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_8.root',
+  'WWTree_DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_9.root'],
+ ['WWTo1L1Nu2Q_13TeV.root',
+  'WWTree_WWTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8.root'],
+ ['WplusTo2JZTo2LJJ_QCD_LO_SM.root',
+  'WWTree_WplusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root'],
+ ['DY3JetsToLL.root',
+  'WWTree_DY3JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1.root',
+  'WWTree_DY3JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2.root'],
+ ['ST_t_channel_antitop.root',
+  'WWTree_Summer16_ST_t_channel_antitop_4f_inclusiveDecays_TuneCUETP8M2T4.root'],
+ ['WWZ_13TeV_amcatnlo.root', 'WWTree_WWZ_13TeV_amcatnlo_pythia8.root'],
+ ['WplusToLNuWplusTo2JJJ_EWK_LO_SM.root',
+  'WWTree_WplusToLNuWplusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root'],
+ ['QCD_HT2000toInf.root',
+  'WWTree_QCD_HT2000toInf_13TeV.root',
+  'WWTree_QCD_HT2000toInf_13TeV_ext.root'],
+ ['ZTo2LZTo2JJJ_EWK_LO_aQGC.root',
+  'WWTree_ZTo2LZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root'],
+ ['WminusToLNuZTo2JJJ_QCD_LO_SM.root',
+  'WWTree_WminusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root'],
+ ['WminusTo2JZTo2LJJ_EWK_LO_SM.root',
+  'WWTree_WminusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root'],
+ ['TTWJetsToQQ.root', 'WWTree_TTWJetsToQQ.root']]
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WJetsToLNu_HT_800To1200.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_800To1200_13TeV.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_800To1200_13TeV_ext1.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WJetsToLNu_HT_800To1200.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_800To1200_13TeV.root
+hadd Source file 2: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_800To1200_13TeV_ext1.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WJetsToLNu_HT_800To1200.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/ZTo2LZTo2JJJ_EWK_LO_SM.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_ZTo2LZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/ZTo2LZTo2JJJ_EWK_LO_SM.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_ZTo2LZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/ZTo2LZTo2JJJ_EWK_LO_SM.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WplusToLNuWminusTo2JJJ_EWK_LO_SM.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WplusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WplusToLNuWminusTo2JJJ_EWK_LO_SM.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WplusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WplusToLNuWminusTo2JJJ_EWK_LO_SM.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WplusToLNuWminusTo2JJJ_QCD_LO_SM.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WplusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WplusToLNuWminusTo2JJJ_QCD_LO_SM.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WplusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WplusToLNuWminusTo2JJJ_QCD_LO_SM.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/ZZZ_13TeV_amcatnlo.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_ZZZ_13TeV_amcatnlo_pythia8.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/ZZZ_13TeV_amcatnlo.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_ZZZ_13TeV_amcatnlo_pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/ZZZ_13TeV_amcatnlo.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WplusToLNuZTo2JJJ_QCD_LO_SM.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WplusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WplusToLNuZTo2JJJ_QCD_LO_SM.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WplusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WplusToLNuZTo2JJJ_QCD_LO_SM.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WZTo1L1Nu2Q_13TeV.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WZTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8_1.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WZTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8_2.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WZTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8_3.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WZTo1L1Nu2Q_13TeV.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WZTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8_1.root
+hadd Source file 2: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WZTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8_2.root
+hadd Source file 3: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WZTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8_3.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WZTo1L1Nu2Q_13TeV.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/TTZToLLNuNu_M-10.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_TTZToLLNuNu_M-10.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_TTZToLLNuNu_M-10_ext2.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/TTZToLLNuNu_M-10.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_TTZToLLNuNu_M-10.root
+hadd Source file 2: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_TTZToLLNuNu_M-10_ext2.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/TTZToLLNuNu_M-10.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WJetsToLNu_HT_200To400.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_200To400_13TeV.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_200To400_13TeV_ext1.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_200To400_13TeV_ext2.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_200To400_13TeV_ext2_1.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_200To400_13TeV_ext2_2.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_200To400_13TeV_ext2_3.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WJetsToLNu_HT_200To400.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_200To400_13TeV.root
+hadd Source file 2: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_200To400_13TeV_ext1.root
+hadd Source file 3: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_200To400_13TeV_ext2.root
+hadd Source file 4: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_200To400_13TeV_ext2_1.root
+hadd Source file 5: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_200To400_13TeV_ext2_2.root
+hadd Source file 6: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_200To400_13TeV_ext2_3.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WJetsToLNu_HT_200To400.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WJetsToLNu_HT_2500ToInf.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_2500ToInf_13TeV.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_2500ToInf_13TeV_ext1.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WJetsToLNu_HT_2500ToInf.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_2500ToInf_13TeV.root
+hadd Source file 2: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_2500ToInf_13TeV_ext1.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WJetsToLNu_HT_2500ToInf.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/TTWJetsToLNu.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_TTWJetsToLNu_ext1.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_TTWJetsToLNu_ext2.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/TTWJetsToLNu.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_TTWJetsToLNu_ext1.root
+hadd Source file 2: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_TTWJetsToLNu_ext2.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/TTWJetsToLNu.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/QCD_HT1500to2000.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_QCD_HT1500to2000_13TeV.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_QCD_HT1500to2000_13TeV_ext.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/QCD_HT1500to2000.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_QCD_HT1500to2000_13TeV.root
+hadd Source file 2: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_QCD_HT1500to2000_13TeV_ext.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/QCD_HT1500to2000.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/TTToSemilepton.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_TTToSemilepton_powheg_1.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_TTToSemilepton_powheg_2.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_TTToSemilepton_powheg_3.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_TTToSemilepton_powheg_4.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_TTToSemilepton_powheg_5.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_TTToSemilepton_powheg_6.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/TTToSemilepton.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_TTToSemilepton_powheg_1.root
+hadd Source file 2: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_TTToSemilepton_powheg_2.root
+hadd Source file 3: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_TTToSemilepton_powheg_3.root
+hadd Source file 4: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_TTToSemilepton_powheg_4.root
+hadd Source file 5: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_TTToSemilepton_powheg_5.root
+hadd Source file 6: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_TTToSemilepton_powheg_6.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/TTToSemilepton.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WplusToLNuWplusTo2JJJ_EWK_LO_aQGC.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WplusToLNuWplusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WplusToLNuWplusTo2JJJ_EWK_LO_aQGC.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WplusToLNuWplusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WplusToLNuWplusTo2JJJ_EWK_LO_aQGC.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WplusTo2JWminusToLNuJJ_QCD_LO_SM.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WplusTo2JWminusToLNuJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WplusTo2JWminusToLNuJJ_QCD_LO_SM.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WplusTo2JWminusToLNuJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WplusTo2JWminusToLNuJJ_QCD_LO_SM.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/QCD_HT500to700.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_QCD_HT500to700_13TeV.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_QCD_HT500to700_13TeV_ext_1.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_QCD_HT500to700_13TeV_ext_2.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_QCD_HT500to700_13TeV_ext_3.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/QCD_HT500to700.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_QCD_HT500to700_13TeV.root
+hadd Source file 2: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_QCD_HT500to700_13TeV_ext_1.root
+hadd Source file 3: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_QCD_HT500to700_13TeV_ext_2.root
+hadd Source file 4: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_QCD_HT500to700_13TeV_ext_3.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/QCD_HT500to700.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/QCD_HT100to200.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_QCD_HT100to200_13TeV_1.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_QCD_HT100to200_13TeV_2.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_QCD_HT100to200_13TeV_3.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_QCD_HT100to200_13TeV_4.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_QCD_HT100to200_13TeV_5.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_QCD_HT100to200_13TeV_6.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/QCD_HT100to200.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_QCD_HT100to200_13TeV_1.root
+hadd Source file 2: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_QCD_HT100to200_13TeV_2.root
+hadd Source file 3: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_QCD_HT100to200_13TeV_3.root
+hadd Source file 4: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_QCD_HT100to200_13TeV_4.root
+hadd Source file 5: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_QCD_HT100to200_13TeV_5.root
+hadd Source file 6: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_QCD_HT100to200_13TeV_6.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/QCD_HT100to200.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WplusToLNuWminusTo2JJJ_EWK_LO_aQGC.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WplusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WplusToLNuWminusTo2JJJ_EWK_LO_aQGC.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WplusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WplusToLNuWminusTo2JJJ_EWK_LO_aQGC.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/DY4JetsToLL.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_DY4JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/DY4JetsToLL.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_DY4JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/DY4JetsToLL.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/ZZTo2L2Q_13TeV.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_ZZTo2L2Q_13TeV_amcatnloFXFX_madspin_pythia8.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/ZZTo2L2Q_13TeV.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_ZZTo2L2Q_13TeV_amcatnloFXFX_madspin_pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/ZZTo2L2Q_13TeV.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WplusToLNuZTo2JJJ_EWK_LO_aQGC.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WplusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WplusToLNuZTo2JJJ_EWK_LO_aQGC.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WplusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WplusToLNuZTo2JJJ_EWK_LO_aQGC.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/SingleElectron.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleElectronRun2016F_03Feb2017_v1_el.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleElectronRun2016H_03Feb2017_ver2_v1_1_el.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleElectronRun2016H_03Feb2017_ver2_v1_2_el.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleElectronRun2016H_03Feb2017_ver3_v1_el.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleElectron_Run2016B-03Feb2017_ver1-v1_el.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleElectron_Run2016B-03Feb2017_ver2-v2_1_el.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleElectron_Run2016B-03Feb2017_ver2-v2_2_el.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleElectron_Run2016B-03Feb2017_ver2-v2_3_el.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleElectron_Run2016B-03Feb2017_ver2-v2_4_el.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleElectron_Run2016B-03Feb2017_ver2-v2_5_el.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleElectron_Run2016C-03Feb2017-v1_el.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleElectron_Run2016D-03Feb2017-v1_1_el.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleElectron_Run2016D-03Feb2017-v1_2_el.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleElectron_Run2016D-03Feb2017-v1_3_el.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleElectron_Run2016E-03Feb2017-v1_1_el.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleElectron_Run2016E-03Feb2017-v1_2_el.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleElectron_Run2016G-03Feb2017-v1_1_el.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleElectron_Run2016G-03Feb2017-v1_2_el.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleElectron_Run2016G-03Feb2017-v1_3_el.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/SingleElectron.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleElectronRun2016F_03Feb2017_v1_el.root
+hadd Source file 2: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleElectronRun2016H_03Feb2017_ver2_v1_1_el.root
+hadd Source file 3: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleElectronRun2016H_03Feb2017_ver2_v1_2_el.root
+hadd Source file 4: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleElectronRun2016H_03Feb2017_ver3_v1_el.root
+hadd Source file 5: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleElectron_Run2016B-03Feb2017_ver1-v1_el.root
+hadd Source file 6: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleElectron_Run2016B-03Feb2017_ver2-v2_1_el.root
+hadd Source file 7: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleElectron_Run2016B-03Feb2017_ver2-v2_2_el.root
+hadd Source file 8: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleElectron_Run2016B-03Feb2017_ver2-v2_3_el.root
+hadd Source file 9: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleElectron_Run2016B-03Feb2017_ver2-v2_4_el.root
+hadd Source file 10: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleElectron_Run2016B-03Feb2017_ver2-v2_5_el.root
+hadd Source file 11: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleElectron_Run2016C-03Feb2017-v1_el.root
+hadd Source file 12: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleElectron_Run2016D-03Feb2017-v1_1_el.root
+hadd Source file 13: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleElectron_Run2016D-03Feb2017-v1_2_el.root
+hadd Source file 14: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleElectron_Run2016D-03Feb2017-v1_3_el.root
+hadd Source file 15: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleElectron_Run2016E-03Feb2017-v1_1_el.root
+hadd Source file 16: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleElectron_Run2016E-03Feb2017-v1_2_el.root
+hadd Source file 17: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleElectron_Run2016G-03Feb2017-v1_1_el.root
+hadd Source file 18: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleElectron_Run2016G-03Feb2017-v1_2_el.root
+hadd Source file 19: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleElectron_Run2016G-03Feb2017-v1_3_el.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/SingleElectron.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WminusToLNuWminusTo2JJJ_QCD_LO_SM.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WminusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WminusToLNuWminusTo2JJJ_QCD_LO_SM.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WminusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WminusToLNuWminusTo2JJJ_QCD_LO_SM.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/ST_s_channel.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_Summer16_ST_s_channel_4f_leptonDecays.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/ST_s_channel.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_Summer16_ST_s_channel_4f_leptonDecays.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/ST_s_channel.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WplusTo2JZTo2LJJ_EWK_LO_aQGC.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WplusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WplusTo2JZTo2LJJ_EWK_LO_aQGC.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WplusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WplusTo2JZTo2LJJ_EWK_LO_aQGC.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WplusTo2JWminusToLNuJJ_EWK_LO_aQGC.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WplusTo2JWminusToLNuJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WplusTo2JWminusToLNuJJ_EWK_LO_aQGC.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WplusTo2JWminusToLNuJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WplusTo2JWminusToLNuJJ_EWK_LO_aQGC.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WJetsToLNu_HT_600To800.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_600To800_13TeV.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_600To800_13TeV_ext1_1.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_600To800_13TeV_ext1_2.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WJetsToLNu_HT_600To800.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_600To800_13TeV.root
+hadd Source file 2: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_600To800_13TeV_ext1_1.root
+hadd Source file 3: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_600To800_13TeV_ext1_2.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WJetsToLNu_HT_600To800.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/ST_tW_top_5f_NoFullyHadronicDecays.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_ST_tW_top_5f_NoFullyHadronicDecays_13TeV_powheg_TuneCUETP8M1.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/ST_tW_top_5f_NoFullyHadronicDecays.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_ST_tW_top_5f_NoFullyHadronicDecays_13TeV_powheg_TuneCUETP8M1.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/ST_tW_top_5f_NoFullyHadronicDecays.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/QCD_HT700to1000.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_QCD_HT700to1000_13TeV.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/QCD_HT700to1000.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_QCD_HT700to1000_13TeV.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/QCD_HT700to1000.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WminusToLNuWminusTo2JJJ_EWK_LO_SM.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WminusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WminusToLNuWminusTo2JJJ_EWK_LO_SM.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WminusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WminusToLNuWminusTo2JJJ_EWK_LO_SM.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WplusTo2JWminusToLNuJJ_EWK_LO_SM.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WplusTo2JWminusToLNuJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WplusTo2JWminusToLNuJJ_EWK_LO_SM.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WplusTo2JWminusToLNuJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WplusTo2JWminusToLNuJJ_EWK_LO_SM.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/QCD_HT1000to1500.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_QCD_HT1000to1500_13TeV.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_QCD_HT1000to1500_13TeV_ext.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/QCD_HT1000to1500.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_QCD_HT1000to1500_13TeV.root
+hadd Source file 2: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_QCD_HT1000to1500_13TeV_ext.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/QCD_HT1000to1500.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WJetsToLNu_HT_100To200.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_100To200_13TeV.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_100To200_13TeV_ext1_1.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_100To200_13TeV_ext1_2.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_100To200_13TeV_ext1_3.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_100To200_13TeV_ext1_4.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_100To200_13TeV_ext1_5.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_100To200_13TeV_ext1_6.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_100To200_13TeV_ext2_1.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_100To200_13TeV_ext2_2.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_100To200_13TeV_ext2_3.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_100To200_13TeV_ext2_4.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_100To200_13TeV_ext2_5.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_100To200_13TeV_ext2_6.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_100To200_13TeV_ext2_7.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_100To200_13TeV_ext2_8.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WJetsToLNu_HT_100To200.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_100To200_13TeV.root
+hadd Source file 2: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_100To200_13TeV_ext1_1.root
+hadd Source file 3: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_100To200_13TeV_ext1_2.root
+hadd Source file 4: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_100To200_13TeV_ext1_3.root
+hadd Source file 5: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_100To200_13TeV_ext1_4.root
+hadd Source file 6: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_100To200_13TeV_ext1_5.root
+hadd Source file 7: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_100To200_13TeV_ext1_6.root
+hadd Source file 8: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_100To200_13TeV_ext2_1.root
+hadd Source file 9: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_100To200_13TeV_ext2_2.root
+hadd Source file 10: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_100To200_13TeV_ext2_3.root
+hadd Source file 11: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_100To200_13TeV_ext2_4.root
+hadd Source file 12: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_100To200_13TeV_ext2_5.root
+hadd Source file 13: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_100To200_13TeV_ext2_6.root
+hadd Source file 14: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_100To200_13TeV_ext2_7.root
+hadd Source file 15: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_100To200_13TeV_ext2_8.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WJetsToLNu_HT_100To200.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/ST_t_channel_top_4f.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_Summer16_ST_t_channel_top_4f_inclusiveDecays_TuneCUETP8M2T4.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/ST_t_channel_top_4f.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_Summer16_ST_t_channel_top_4f_inclusiveDecays_TuneCUETP8M2T4.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/ST_t_channel_top_4f.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WplusToLNuWplusTo2JJJ_QCD_LO_SM.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WplusToLNuWplusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WplusToLNuWplusTo2JJJ_QCD_LO_SM.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WplusToLNuWplusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WplusToLNuWplusTo2JJJ_QCD_LO_SM.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/TTZToQQ.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_TTZToQQ.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/TTZToQQ.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_TTZToQQ.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/TTZToQQ.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WminusTo2JZTo2LJJ_EWK_LO_aQGC.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WminusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WminusTo2JZTo2LJJ_EWK_LO_aQGC.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WminusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WminusTo2JZTo2LJJ_EWK_LO_aQGC.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/SingleMuon.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleMuonRun2016B_03Feb2017_ver1_v1_mu.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleMuonRun2016B_03Feb2017_ver2_v2_1_mu.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleMuonRun2016B_03Feb2017_ver2_v2_2_mu.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleMuonRun2016B_03Feb2017_ver2_v2_3_mu.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleMuonRun2016C_03Feb2017_v1_mu.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleMuonRun2016D_03Feb2017_v1_1_mu.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleMuonRun2016D_03Feb2017_v1_2_mu.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleMuonRun2016E_03Feb2017_v1_1_mu.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleMuonRun2016E_03Feb2017_v1_2_mu.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleMuonRun2016F_03Feb2017_v1_1_mu.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleMuonRun2016F_03Feb2017_v1_2_mu.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleMuonRun2016G_03Feb2017_v1_1_mu.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleMuonRun2016G_03Feb2017_v1_2_mu.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleMuonRun2016G_03Feb2017_v1_3_mu.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleMuonRun2016H_03Feb2017_ver2_v1_1_mu.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleMuonRun2016H_03Feb2017_ver2_v1_2_mu.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleMuonRun2016H_03Feb2017_ver2_v1_3_mu.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleMuonRun2016H_03Feb2017_ver3_v1_mu.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/SingleMuon.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleMuonRun2016B_03Feb2017_ver1_v1_mu.root
+hadd Source file 2: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleMuonRun2016B_03Feb2017_ver2_v2_1_mu.root
+hadd Source file 3: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleMuonRun2016B_03Feb2017_ver2_v2_2_mu.root
+hadd Source file 4: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleMuonRun2016B_03Feb2017_ver2_v2_3_mu.root
+hadd Source file 5: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleMuonRun2016C_03Feb2017_v1_mu.root
+hadd Source file 6: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleMuonRun2016D_03Feb2017_v1_1_mu.root
+hadd Source file 7: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleMuonRun2016D_03Feb2017_v1_2_mu.root
+hadd Source file 8: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleMuonRun2016E_03Feb2017_v1_1_mu.root
+hadd Source file 9: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleMuonRun2016E_03Feb2017_v1_2_mu.root
+hadd Source file 10: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleMuonRun2016F_03Feb2017_v1_1_mu.root
+hadd Source file 11: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleMuonRun2016F_03Feb2017_v1_2_mu.root
+hadd Source file 12: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleMuonRun2016G_03Feb2017_v1_1_mu.root
+hadd Source file 13: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleMuonRun2016G_03Feb2017_v1_2_mu.root
+hadd Source file 14: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleMuonRun2016G_03Feb2017_v1_3_mu.root
+hadd Source file 15: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleMuonRun2016H_03Feb2017_ver2_v1_1_mu.root
+hadd Source file 16: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleMuonRun2016H_03Feb2017_ver2_v1_2_mu.root
+hadd Source file 17: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleMuonRun2016H_03Feb2017_ver2_v1_3_mu.root
+hadd Source file 18: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_SingleMuonRun2016H_03Feb2017_ver3_v1_mu.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/SingleMuon.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WplusToLNuZTo2JJJ_EWK_LO_SM.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WplusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WplusToLNuZTo2JJJ_EWK_LO_SM.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WplusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WplusToLNuZTo2JJJ_EWK_LO_SM.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/ZTo2LZTo2JJJ_QCD_LO_SM.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_ZTo2LZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/ZTo2LZTo2JJJ_QCD_LO_SM.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_ZTo2LZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/ZTo2LZTo2JJJ_QCD_LO_SM.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/QCD_HT200to300.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_QCD_HT200to300_13TeV.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_QCD_HT200to300_13TeV_ext_1.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_QCD_HT200to300_13TeV_ext_2.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/QCD_HT200to300.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_QCD_HT200to300_13TeV.root
+hadd Source file 2: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_QCD_HT200to300_13TeV_ext_1.root
+hadd Source file 3: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_QCD_HT200to300_13TeV_ext_2.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/QCD_HT200to300.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/ST_tW_antitop_5f_NoFullyHadronicDecays.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_ST_tW_antitop_5f_NoFullyHadronicDecays_13TeV_powheg_TuneCUETP8M1.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/ST_tW_antitop_5f_NoFullyHadronicDecays.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_ST_tW_antitop_5f_NoFullyHadronicDecays_13TeV_powheg_TuneCUETP8M1.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/ST_tW_antitop_5f_NoFullyHadronicDecays.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/QCD_HT300to500.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_QCD_HT300to500_13TeV.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_QCD_HT300to500_13TeV_ext.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/QCD_HT300to500.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_QCD_HT300to500_13TeV.root
+hadd Source file 2: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_QCD_HT300to500_13TeV_ext.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/QCD_HT300to500.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WminusToLNuZTo2JJJ_EWK_LO_aQGC.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WminusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WminusToLNuZTo2JJJ_EWK_LO_aQGC.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WminusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WminusToLNuZTo2JJJ_EWK_LO_aQGC.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WminusTo2JZTo2LJJ_QCD_LO_SM.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WminusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WminusTo2JZTo2LJJ_QCD_LO_SM.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WminusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WminusTo2JZTo2LJJ_QCD_LO_SM.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WJetsToLNu_HT_400To600.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_400To600_13TeV.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_400To600_13TeV_ext1.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WJetsToLNu_HT_400To600.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_400To600_13TeV.root
+hadd Source file 2: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_400To600_13TeV_ext1.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WJetsToLNu_HT_400To600.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WminusToLNuZTo2JJJ_EWK_LO_SM.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WminusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WminusToLNuZTo2JJJ_EWK_LO_SM.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WminusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WminusToLNuZTo2JJJ_EWK_LO_SM.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/ZZ_13TeV_pythia8.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_ZZ_13TeV_pythia8.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/ZZ_13TeV_pythia8.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_ZZ_13TeV_pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/ZZ_13TeV_pythia8.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/DY2JetsToLL.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_3.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_4.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_5.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/DY2JetsToLL.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1.root
+hadd Source file 2: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2.root
+hadd Source file 3: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_3.root
+hadd Source file 4: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_4.root
+hadd Source file 5: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_5.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/DY2JetsToLL.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WminusToLNuWminusTo2JJJ_EWK_LO_aQGC.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WminusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WminusToLNuWminusTo2JJJ_EWK_LO_aQGC.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WminusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WminusToLNuWminusTo2JJJ_EWK_LO_aQGC.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WplusTo2JZTo2LJJ_EWK_LO_SM.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WplusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WplusTo2JZTo2LJJ_EWK_LO_SM.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WplusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WplusTo2JZTo2LJJ_EWK_LO_SM.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WJetsToLNu_HT_1200To2500.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_1200To2500_13TeV.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_1200To2500_13TeV_ext1.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WJetsToLNu_HT_1200To2500.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_1200To2500_13TeV.root
+hadd Source file 2: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WJetsToLNu_HT_1200To2500_13TeV_ext1.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WJetsToLNu_HT_1200To2500.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/DY1JetsToLL.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_3.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_4.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_5.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_6.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_7.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_8.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_9.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/DY1JetsToLL.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1.root
+hadd Source file 2: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2.root
+hadd Source file 3: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_3.root
+hadd Source file 4: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_4.root
+hadd Source file 5: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_5.root
+hadd Source file 6: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_6.root
+hadd Source file 7: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_7.root
+hadd Source file 8: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_8.root
+hadd Source file 9: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_9.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/DY1JetsToLL.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WWTo1L1Nu2Q_13TeV.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WWTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WWTo1L1Nu2Q_13TeV.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WWTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WWTo1L1Nu2Q_13TeV.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WplusTo2JZTo2LJJ_QCD_LO_SM.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WplusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WplusTo2JZTo2LJJ_QCD_LO_SM.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WplusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WplusTo2JZTo2LJJ_QCD_LO_SM.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/DY3JetsToLL.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_DY3JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_DY3JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/DY3JetsToLL.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_DY3JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1.root
+hadd Source file 2: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_DY3JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/DY3JetsToLL.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/ST_t_channel_antitop.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_Summer16_ST_t_channel_antitop_4f_inclusiveDecays_TuneCUETP8M2T4.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/ST_t_channel_antitop.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_Summer16_ST_t_channel_antitop_4f_inclusiveDecays_TuneCUETP8M2T4.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/ST_t_channel_antitop.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WWZ_13TeV_amcatnlo.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WWZ_13TeV_amcatnlo_pythia8.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WWZ_13TeV_amcatnlo.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WWZ_13TeV_amcatnlo_pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WWZ_13TeV_amcatnlo.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WplusToLNuWplusTo2JJJ_EWK_LO_SM.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WplusToLNuWplusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WplusToLNuWplusTo2JJJ_EWK_LO_SM.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WplusToLNuWplusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WplusToLNuWplusTo2JJJ_EWK_LO_SM.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/QCD_HT2000toInf.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_QCD_HT2000toInf_13TeV.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_QCD_HT2000toInf_13TeV_ext.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/QCD_HT2000toInf.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_QCD_HT2000toInf_13TeV.root
+hadd Source file 2: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_QCD_HT2000toInf_13TeV_ext.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/QCD_HT2000toInf.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/ZTo2LZTo2JJJ_EWK_LO_aQGC.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_ZTo2LZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/ZTo2LZTo2JJJ_EWK_LO_aQGC.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_ZTo2LZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/ZTo2LZTo2JJJ_EWK_LO_aQGC.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WminusToLNuZTo2JJJ_QCD_LO_SM.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WminusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WminusToLNuZTo2JJJ_QCD_LO_SM.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WminusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WminusToLNuZTo2JJJ_QCD_LO_SM.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WminusTo2JZTo2LJJ_EWK_LO_SM.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WminusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WminusTo2JZTo2LJJ_EWK_LO_SM.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_WminusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/WminusTo2JZTo2LJJ_EWK_LO_SM.root:/
+
+hadd -f /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/TTWJetsToQQ.root /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_TTWJetsToQQ.root 
+hadd Target file: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/TTWJetsToQQ.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39/WWTree_TTWJetsToQQ.root
+hadd Target path: /eos/uscms/store/user/asahmed/SecondStep/WWTree_CommonNtuple_For1and2Lepton_2019_05_27_05h39HaddedFiles/TTWJetsToQQ.root:/
+
+=============	MAKE SUMMARY	================
+['WJetsToLNu_HT_800To1200.root',
+ 'ZTo2LZTo2JJJ_EWK_LO_SM.root',
+ 'WplusToLNuWminusTo2JJJ_EWK_LO_SM.root',
+ 'WplusToLNuWminusTo2JJJ_QCD_LO_SM.root',
+ 'ZZZ_13TeV_amcatnlo.root',
+ 'WplusToLNuZTo2JJJ_QCD_LO_SM.root',
+ 'WZTo1L1Nu2Q_13TeV.root',
+ 'TTZToLLNuNu_M-10.root',
+ 'WJetsToLNu_HT_200To400.root',
+ 'WJetsToLNu_HT_2500ToInf.root',
+ 'TTWJetsToLNu.root',
+ 'QCD_HT1500to2000.root',
+ 'TTToSemilepton.root',
+ 'WplusToLNuWplusTo2JJJ_EWK_LO_aQGC.root',
+ 'WplusTo2JWminusToLNuJJ_QCD_LO_SM.root',
+ 'QCD_HT500to700.root',
+ 'QCD_HT100to200.root',
+ 'WplusToLNuWminusTo2JJJ_EWK_LO_aQGC.root',
+ 'DY4JetsToLL.root',
+ 'ZZTo2L2Q_13TeV.root',
+ 'WplusToLNuZTo2JJJ_EWK_LO_aQGC.root',
+ 'SingleElectron.root',
+ 'WminusToLNuWminusTo2JJJ_QCD_LO_SM.root',
+ 'ST_s_channel.root',
+ 'WplusTo2JZTo2LJJ_EWK_LO_aQGC.root',
+ 'WplusTo2JWminusToLNuJJ_EWK_LO_aQGC.root',
+ 'WJetsToLNu_HT_600To800.root',
+ 'ST_tW_top_5f_NoFullyHadronicDecays.root',
+ 'QCD_HT700to1000.root',
+ 'WminusToLNuWminusTo2JJJ_EWK_LO_SM.root',
+ 'WplusTo2JWminusToLNuJJ_EWK_LO_SM.root',
+ 'QCD_HT1000to1500.root',
+ 'WJetsToLNu_HT_100To200.root',
+ 'ST_t_channel_top_4f.root',
+ 'WplusToLNuWplusTo2JJJ_QCD_LO_SM.root',
+ 'TTZToQQ.root',
+ 'WminusTo2JZTo2LJJ_EWK_LO_aQGC.root',
+ 'SingleMuon.root',
+ 'WplusToLNuZTo2JJJ_EWK_LO_SM.root',
+ 'ZTo2LZTo2JJJ_QCD_LO_SM.root',
+ 'QCD_HT200to300.root',
+ 'ST_tW_antitop_5f_NoFullyHadronicDecays.root',
+ 'QCD_HT300to500.root',
+ 'WminusToLNuZTo2JJJ_EWK_LO_aQGC.root',
+ 'WminusTo2JZTo2LJJ_QCD_LO_SM.root',
+ 'WJetsToLNu_HT_400To600.root',
+ 'WminusToLNuZTo2JJJ_EWK_LO_SM.root',
+ 'ZZ_13TeV_pythia8.root',
+ 'DY2JetsToLL.root',
+ 'WminusToLNuWminusTo2JJJ_EWK_LO_aQGC.root',
+ 'WplusTo2JZTo2LJJ_EWK_LO_SM.root',
+ 'WJetsToLNu_HT_1200To2500.root',
+ 'DY1JetsToLL.root',
+ 'WWTo1L1Nu2Q_13TeV.root',
+ 'WplusTo2JZTo2LJJ_QCD_LO_SM.root',
+ 'DY3JetsToLL.root',
+ 'ST_t_channel_antitop.root',
+ 'WWZ_13TeV_amcatnlo.root',
+ 'WplusToLNuWplusTo2JJJ_EWK_LO_SM.root',
+ 'QCD_HT2000toInf.root',
+ 'ZTo2LZTo2JJJ_EWK_LO_aQGC.root',
+ 'WminusToLNuZTo2JJJ_QCD_LO_SM.root',
+ 'WminusTo2JZTo2LJJ_EWK_LO_SM.root',
+ 'TTWJetsToQQ.root']
+W+jets 	WJetsToLNu_HT_800To1200.root 	6.655 	1	7688957 	0 	924 	1
+WV_EWK 	ZTo2LZTo2JJJ_EWK_LO_SM.root 	0.01589 	1	99997 	0 	840 	0
+WV_EWK 	WplusToLNuWminusTo2JJJ_EWK_LO_SM.root 	0.9114 	1	1991227 	0 	840 	0
+Diboson 	WplusToLNuWminusTo2JJJ_QCD_LO_SM.root 	5.546 	1	3949170 	0 	400 	1
+VV 	ZZZ_13TeV_amcatnlo.root 	0.01398 	1	249232 	18020 	868 	1
+Diboson 	WplusToLNuZTo2JJJ_QCD_LO_SM.root 	1.938 	1	1991348 	0 	400 	1
+VV 	WZTo1L1Nu2Q_13TeV.root 	10.71 	1	23766546 	4986275 	868 	1
+top 	TTZToLLNuNu_M-10.root 	0.2529 	1	7969186 	2126557 	592 	1
+W+jets 	WJetsToLNu_HT_200To400.root 	435.24 	1	29087430 	0 	924 	1
+W+jets 	WJetsToLNu_HT_2500ToInf.root 	0.0389136 	1	2520618 	0 	924 	1
+top 	TTWJetsToLNu.root 	0.2043 	1	5280251 	1282079 	592 	1
+QCD 	QCD_HT1500to2000.root 	119.9 	1	11624720 	0 	420 	1
+top 	TTToSemilepton.root 	364.3 	1	91832423 	0 	592 	1
+aQGC 	WplusToLNuWplusTo2JJJ_EWK_LO_aQGC.root 	3.451 	1	199858 	0 	500 	0
+Diboson 	WplusTo2JWminusToLNuJJ_QCD_LO_SM.root 	5.568 	1	3994663 	0 	400 	1
+QCD 	QCD_HT500to700.root 	32100.0 	1	53744436 	0 	420 	1
+QCD 	QCD_HT100to200.root 	27990000.0 	1	0 	0 	420 	1
+aQGC 	WplusToLNuWminusTo2JJJ_EWK_LO_aQGC.root 	17.94 	1	1640169 	0 	500 	0
+Z+jets 	DY4JetsToLL.root 	54.48136 	1	2798791 	0 	4 	1
+VV 	ZZTo2L2Q_13TeV.root 	3.22 	1	15345161 	2828391 	868 	1
+aQGC 	WplusToLNuZTo2JJJ_EWK_LO_aQGC.root 	1.895 	1	349000 	0 	500 	0
+data 	SingleElectron.root 	35867.06 	1	1 	0 	1 	0
+Diboson 	WminusToLNuWminusTo2JJJ_QCD_LO_SM.root 	0.03203 	1	99657 	0 	400 	1
+top 	ST_s_channel.root 	11.36 	1	999976 	188501 	592 	1
+aQGC 	WplusTo2JZTo2LJJ_EWK_LO_aQGC.root 	0.5686 	1	149363 	0 	500 	0
+aQGC 	WplusTo2JWminusToLNuJJ_EWK_LO_aQGC.root 	17.92 	1	1706220 	0 	500 	0
+W+jets 	WJetsToLNu_HT_600To800.root 	14.58 	1	18578604 	0 	924 	1
+top 	ST_tW_top_5f_NoFullyHadronicDecays.root 	19.5741 	1	5372830 	0 	592 	1
+QCD 	QCD_HT700to1000.root 	6831.0 	1	15578398 	0 	420 	1
+WV_EWK 	WminusToLNuWminusTo2JJJ_EWK_LO_SM.root 	0.03259 	1	189560 	0 	840 	0
+WV_EWK 	WplusTo2JWminusToLNuJJ_EWK_LO_SM.root 	0.9107 	1	1983847 	0 	840 	0
+QCD 	QCD_HT1000to1500.root 	1207.0 	1	13080692 	0 	420 	1
+W+jets 	WJetsToLNu_HT_100To200.root 	1627.45 	1	79165703 	0 	924 	1
+top 	ST_t_channel_top_4f.root 	136.02 	1	5993570 	0 	592 	1
+Diboson 	WplusToLNuWplusTo2JJJ_QCD_LO_SM.root 	0.07584 	1	99992 	0 	400 	1
+top 	TTZToQQ.root 	0.5297 	1	749367 	199113 	592 	1
+aQGC 	WminusTo2JZTo2LJJ_EWK_LO_aQGC.root 	0.2223 	1	168679 	0 	500 	0
+data 	SingleMuon.root 	35867.06 	1	1 	0 	1 	0
+WV_EWK 	WplusToLNuZTo2JJJ_EWK_LO_SM.root 	0.1825 	1	393171 	0 	840 	0
+Diboson 	ZTo2LZTo2JJJ_QCD_LO_SM.root 	0.3449 	1	49999 	0 	400 	1
+QCD 	QCD_HT200to300.root 	1712000.0 	1	0 	0 	420 	1
+top 	ST_tW_antitop_5f_NoFullyHadronicDecays.root 	19.5741 	1	5424956 	0 	592 	1
+QCD 	QCD_HT300to500.root 	347700.0 	1	17005515 	0 	420 	1
+aQGC 	WminusToLNuZTo2JJJ_EWK_LO_aQGC.root 	0.7414 	1	160194 	0 	500 	0
+Diboson 	WminusTo2JZTo2LJJ_QCD_LO_SM.root 	0.3488 	1	489280 	0 	400 	1
+W+jets 	WJetsToLNu_HT_400To600.root 	59.18 	1	7754252 	0 	924 	1
+WV_EWK 	WminusToLNuZTo2JJJ_EWK_LO_SM.root 	0.1 	1	199542 	0 	840 	0
+VV 	ZZ_13TeV_pythia8.root 	10.31 	1	990051 	0 	868 	1
+Z+jets 	DY2JetsToLL.root 	334.717838 	1	19296117 	0 	4 	1
+aQGC 	WminusToLNuWminusTo2JJJ_EWK_LO_aQGC.root 	0.5067 	1	190106 	0 	500 	0
+WV_EWK 	WplusTo2JZTo2LJJ_EWK_LO_SM.root 	0.05401 	1	198922 	0 	840 	0
+W+jets 	WJetsToLNu_HT_1200To2500.root 	1.60809 	1	6708656 	0 	924 	1
+Z+jets 	DY1JetsToLL.root 	1012.296845 	1	46443016 	0 	4 	1
+VV 	WWTo1L1Nu2Q_13TeV.root 	49.997 	1	5057358 	953706 	868 	1
+Diboson 	WplusTo2JZTo2LJJ_QCD_LO_SM.root 	0.575 	1	499432 	0 	400 	1
+Z+jets 	DY3JetsToLL.root 	102.4628 	1	4866978 	0 	4 	1
+top 	ST_t_channel_antitop.root 	80.95 	1	3927980 	0 	592 	1
+VV 	WWZ_13TeV_amcatnlo.root 	0.1651 	1	269990 	15372 	868 	1
+WV_EWK 	WplusToLNuWplusTo2JJJ_EWK_LO_SM.root 	0.08793 	1	198848 	0 	840 	0
+QCD 	QCD_HT2000toInf.root 	25.24 	1	5875869 	0 	420 	1
+aQGC 	ZTo2LZTo2JJJ_EWK_LO_aQGC.root 	3.361 	1	99392 	0 	500 	0
+Diboson 	WminusToLNuZTo2JJJ_QCD_LO_SM.root 	1.166 	1	981540 	0 	400 	1
+WV_EWK 	WminusTo2JZTo2LJJ_EWK_LO_SM.root 	0.02982 	1	189086 	0 	840 	0
+top 	TTWJetsToQQ.root 	0.4062 	1	833257 	201483 	592 	1
+_asahmed@cmslpc26:Scripts\[asahmed@cmslpc26 Scripts]$ 
